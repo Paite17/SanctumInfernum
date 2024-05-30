@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/DisclaimerScene.unity
+    guid: af66dd4b29d88f947bc5ab0b9c44802e
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: ca73248fb62f82e4687bf42ad1bcc9fe
+  - enabled: 1
+    path: Assets/Scenes/IntroDialogue.unity
+    guid: 6d6c27ecab493a046bb09760f6b110e8
+  - enabled: 1
+    path: Assets/Scenes/Slums.unity
+    guid: 5ce22bb857eafa6409b6c62894ee1e44
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: 87917d3c545f8a1489a8e86e548ea384
+  - enabled: 1
+    path: Assets/Scenes/CutsceneDialogue.unity
+    guid: 6c2ad153ca0de7d4da5ab39e0fe6faa4
+  - enabled: 1
+    path: Assets/Scenes/EndSlums.unity
+    guid: 2721e1ce10b21aa4380d1bbf4f2f4c19
+  - enabled: 1
+    path: Assets/Scenes/CreditsScene.unity
+    guid: 41fa9467cb794634e8d5edc8f06f0302
+  m_configObjects: {}
