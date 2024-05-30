@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a08e0149ec3f374190de18c04b79c0a, type: 3}
+  m_Name: CasBookSP
+  m_EditorClassIdentifier: 
+  dialogue:
+  - There's an open book with a bit of English in it. Let's see...
+  - '"Oh mercy! Oh mercy! A droplet of the divine descended from the heavens. Cast
+    aside the chains that tore us! Order in the underworld! Order in Abaddon!"'
+  - "\"Unleash true wrath upon those that deserve it, oh yes please! We band together
+    in awe of our mighty ruler, a bright light within the eternal shadows!\u201D"
+  responses: []
+  character:
+  - {fileID: 11400000, guid: df5247f7139f8e8418e47387d0eb9f69, type: 2}
+  - {fileID: 11400000, guid: e97bc9969a6f34f47b9db612ae1c2c18, type: 2}
+  - {fileID: 11400000, guid: e97bc9969a6f34f47b9db612ae1c2c18, type: 2}
+  hasEvent: 000000
+  dialogueVO:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a08e0149ec3f374190de18c04b79c0a, type: 3}
+  m_Name: CutsceneGimble
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Oh sweet, sweet priest. You have fallen far, most certainly!
+  - Destined as a scapegoat, you certainly are, but what journey ends without a climax?
+  - Well then, Father Truss, I believe it's time for you to leave, with haste no
+    doubt!
+  - There is only so much I can do for you in here... But outside? I can get you
+    far, far away, oh yes!
+  - You can repay my debt when we meet once more... Most certainly!
+  responses: []
+  character:
+  - {fileID: 11400000, guid: 687c2826ec4081041822530cf776efe6, type: 2}
+  - {fileID: 11400000, guid: 687c2826ec4081041822530cf776efe6, type: 2}
+  - {fileID: 11400000, guid: 687c2826ec4081041822530cf776efe6, type: 2}
+  - {fileID: 11400000, guid: 687c2826ec4081041822530cf776efe6, type: 2}
+  - {fileID: 11400000, guid: 687c2826ec4081041822530cf776efe6, type: 2}
+  hasEvent: 0000000101
+  dialogueVO:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a08e0149ec3f374190de18c04b79c0a, type: 3}
+  m_Name: CasPaint3
+  m_EditorClassIdentifier: 
+  dialogue:
+  - So this is eternal damnation. The land without a God. Home of the irredeemable...
+  - And now I live here. I'm not dead, yet I live here. I gave everything in the
+    name of the Lord, yet I live here...
+  - I get bloody sacrificed while Whitewood gets to mosey around the church, and..!
+  - ... No. I won't waver now. I can still find a way out. For sure.
+  responses: []
+  character:
+  - {fileID: 11400000, guid: df5247f7139f8e8418e47387d0eb9f69, type: 2}
+  - {fileID: 11400000, guid: df5247f7139f8e8418e47387d0eb9f69, type: 2}
+  - {fileID: 11400000, guid: df5247f7139f8e8418e47387d0eb9f69, type: 2}
+  - {fileID: 11400000, guid: df5247f7139f8e8418e47387d0eb9f69, type: 2}
+  hasEvent: 00000000
+  dialogueVO:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
