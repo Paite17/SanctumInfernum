@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4243F01C-D008-4FC2-8777-CD46371012B1}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{4243F01C-D008-4FC2-8777-CD46371012B1}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Music" ID="{A47C080E-9871-4D45-ACA4-E47FFB5E9EE6}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Oli - Music - Combat" ID="{CC8526FB-B655-49D8-9AD0-91CFD44D29FC}" WorkUnitID="{8CD424FD-31C9-4C9D-931D-A3FBEA9BB966}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Player_Seen" ID="{299F4FDE-E50B-4782-8937-1BFF70012491}" WorkUnitID="{142B329D-BCD9-4C03-8F63-9A5A2A78B81D}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

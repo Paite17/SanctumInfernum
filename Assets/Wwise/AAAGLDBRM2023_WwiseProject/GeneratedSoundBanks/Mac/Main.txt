@@ -1,0 +1,56 @@
+Event	ID	Name			Wwise Object Path	Notes
+	27255824	Player_Injured			\Default Work Unit\Player\Injured\Player_Injured	
+	114434101	Dagger_Slash			\Default Work Unit\Player\Combat\Dagger\Dagger_Slash	
+	145123698	Warden_DrillHands			\Default Work Unit\Warden\Combat\Warden_DrillHands	
+	540387002	Play_GameOver_Cue			\Default Work Unit\Player\Dead\Play_GameOver_Cue	
+	658204658	Small_Demon_Fireball			\Default Work Unit\Small Demon\Combat\Small_Demon_Fireball	
+	814543256	Button_Click			\Default Work Unit\UI\Button_Click	
+	1479837664	Big_Demon_Melee			\Default Work Unit\Big Demon\Combat\Big_Demon_Melee	
+	1777701508	Small_Demon_Injured			\Default Work Unit\Small Demon\Injured\Small_Demon_Injured	
+	2180471771	Big_Demon_Injured			\Default Work Unit\Big Demon\Injured\Big_Demon_Injured	
+	2182621371	Small_Demon_Dead			\Default Work Unit\Small Demon\Dead\Small_Demon_Dead	
+	2393980604	Play_Burn_Test			\Default Work Unit\Test\Play_Burn_Test	
+	2472533742	Big_Demon_Dead			\Default Work Unit\Big Demon\Dead\Big_Demon_Dead	
+	2607442107	Warden_Dead			\Default Work Unit\Warden\Dead\Warden_Dead	
+	2696132222	Player_NormalHealth			\Default Work Unit\Player\Health\Player_NormalHealth	
+	3620622980	Warden_Injured			\Default Work Unit\Warden\Injured\Warden_Injured	
+	3634256599	Player_LowHealth			\Default Work Unit\Player\Health\Player_LowHealth	
+	3767552163	Small_Demon_Melee			\Default Work Unit\Small Demon\Combat\Small_Demon_Melee	
+	3982195600	Shotgun_Fire			\Default Work Unit\Player\Combat\Shotgun\Shotgun_Fire	
+	4103199500	Magic_Projectile			\Default Work Unit\Player\Combat\Magic\Magic_Projectile	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	16368851	Ben - Big Demon - Hurt 2	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Big Demon Hurt 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Big Demon\Injured\Big Demon Injured\Ben - Big Demon - Hurt 2		88344
+	36699401	Burn Test	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\GAM 507 - Demon Fireball - Burn _AD661F34.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\Burn Test		275152
+	50817926	Ben - Big Demon - Death 2	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Big Demon Death 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Big Demon\Death\Big Demon Dead\Ben - Big Demon - Death 2		154492
+	68704878	Robert - Small Demon - Fireball - Throw	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Demon Fireball - Throw_BB6D0CCB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Small Demon\Combat\Fireball\Robert - Small Demon - Fireball - Throw		120728
+	113532202	Robert - Small Demon - Fireball - Impact	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Demon Fireball - Impact_C2F1445F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Small Demon\Combat\Fireball\Robert - Small Demon - Fireball - Impact		201952
+	134946698	Robert - UI - Game Over 5	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\GAM 507 Death sfx test - Track 5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Game Over Screen\Game Over\Robert - UI - Game Over 5		2940652
+	136779111	Robert - UI - Game Over 2	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\GAM 507 Death sfx test - Track 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Game Over Screen\Game Over\Robert - UI - Game Over 2		1625528
+	162473452	Oli - Magic - Magic Projectile	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Magic Projectile sfx_2E855A5C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Combat\Magic\Oli - Magic - Magic Projectile		813320
+	168757338	Jack - Warden - Hurt	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\warden_damage_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Warden\Injured\Jack - Warden - Hurt		135556
+	198117718	Robert - Small Demon - Fireball - Start	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Demon Fireball - Start_BB8FBF07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Small Demon\Combat\Fireball\Robert - Small Demon - Fireball - Start		207168
+	224374040	Ben - Small Demon - Melee	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Demon Melee Attack (claws)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Small Demon\Combat\Melee\Ben - Small Demon - Melee		397044
+	329205808	Jack - Shotgun - Pump	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\shotgun pump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Combat\Shotgun\Jack - Shotgun - Pump		167272
+	386855703	Oli - UI - Game Over 1	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Death SFX__10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Game Over Screen\Game Over\Oli - UI - Game Over 1		1411344
+	392238674	Jack - Warden - Combat	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\warden_attack_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Warden\Combat\Jack - Warden - Combat		288128
+	395167253	Pawel - Dagger - Slash 2	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Dagger_Slash_512D42C6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Combat\Dagger\Dagger Slash\Pawel - Dagger - Slash 2		81244
+	403613418	Jack - Shotgun - Shells	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\shell drop 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Combat\Shotgun\Jack - Shotgun - Shells		126128
+	428600881	Robert - UI - Game Over 1	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\GAM 507 Death sfx test - Track 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Game Over Screen\Game Over\Robert - UI - Game Over 1		1513704
+	599307759	Jack - Warden - Death	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\warden_death_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Warden\Death\Jack - Warden - Death		621556
+	700163977	Pawel - UI - Button Click	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\UI sound_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Pawel - UI - Button Click		307264
+	704562518	Oli - Player - Hurt 3	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Player Hurt Sfx 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Injured\Player Injured\Oli - Player - Hurt 3		88344
+	749364720	Ben - Big Demon - Death 1	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Big Demon Death 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Big Demon\Death\Big Demon Dead\Ben - Big Demon - Death 1		154492
+	756955648	Pawel - Small Demon 1 - Death	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Imp 1 death_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Small Demon\Death\Small Demon Death\Pawel - Small Demon 1 - Death		211744
+	760008828	Pawel - Small Demon 2 - Hurt	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Imp 2 hurt_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Small Demon\Injured\Small Demon Injured\Pawel - Small Demon 2 - Hurt		211744
+	770360250	Pawel - Small Demon 2 - Death	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Imp 2 death_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Small Demon\Death\Small Demon Death\Pawel - Small Demon 2 - Death		201664
+	835371390	Jack - Shotgun - Blast	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Shotgun blast_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Combat\Shotgun\Jack - Shotgun - Blast		164700
+	870645978	Pawel - Dagger - Slash 1	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Dagger_Slash_E5BED820.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Combat\Dagger\Dagger Slash\Pawel - Dagger - Slash 1		125576
+	922874722	Robert - Small Demon - Fireball - Burn	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Demon Fireball - Burn_3A01D70B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Small Demon\Combat\Fireball\Robert - Small Demon - Fireball - Burn		237104
+	998897374	Ben - Big Demon - Hurt 1	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Big Demon Hurt 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Big Demon\Injured\Big Demon Injured\Ben - Big Demon - Hurt 1		88344
+	999679754	Oli - Player - Hurt 2	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Player Hurt Sfx 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Injured\Player Injured\Oli - Player - Hurt 2		62616
+	999803230	Oli - Player - Hurt 1	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Player Hurt Sfx 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Injured\Player Injured\Oli - Player - Hurt 1		88344
+	1026548947	Pawel - Small Demon 1 - Hurt	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Imp 1 hurt_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Small Demon\Injured\Small Demon Injured\Pawel - Small Demon 1 - Hurt		123544
+	1063620329	Robert - UI - Game Over 4	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\GAM 507 Death sfx test - Track 4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Game Over Screen\Game Over\Robert - UI - Game Over 4		1886192
+	1072204522	Jack - Player - Heartbeat	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\heartbeat_648337F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Health\Jack - Player - Heartbeat		568396
+

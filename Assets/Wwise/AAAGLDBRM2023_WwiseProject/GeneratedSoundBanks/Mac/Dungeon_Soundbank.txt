@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	305072610	Castle_Themes			\Default Work Unit\Music\Castle\Castle_Themes	
+	1070605181	Dungeon_Music			\Default Work Unit\Music\Dungeon\Dungeon_Music	
+	1256842828	Play_Torches			\Default Work Unit\Play_Torches	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	133568083	Pad 2	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Pad 2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Ambiance\Oli - Music - Ambiance 2\Pad 2		3175344
+	201173851	Robert - Castle - Torches	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Demon Fireball - Burn_886B6AEF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Robert - Castle - Torches		270604
+	204582767	Oli - Music - Dungeon	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Oli - Music - Dungeon _D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Oli - Music - Dungeon\Oli - Music - Dungeon		11995408
+	448236783	Pad 1	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Pad 1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Ambiance\Oli - Music - Ambiance 1\Pad 1		6350544
+	1018154041	Pad_3_whispers	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Pad_3_whispers_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Ambiance\Oli - Music - Ambiance 3\Pad_3_whispers		4586544
+

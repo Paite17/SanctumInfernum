@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9781CB65-AA2C-4153-85B6-10AD080FB53E}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{9781CB65-AA2C-4153-85B6-10AD080FB53E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{13AB04E7-65A6-4167-8859-21B4F8B6C0C2}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Burn_Test" ID="{ED75990E-3C8C-42C4-930E-9E9155008992}" WorkUnitID="{4C0AA67C-9D0E-4C17-B333-B8470CB23AB6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Big Demon" ID="{A62CF9FF-54FF-464C-9187-9A713DEC1B58}" WorkUnitID="{4C0AA67C-9D0E-4C17-B333-B8470CB23AB6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Small Demon" ID="{2B9D5EE2-9868-46B1-B15F-A3CC00B8DDAC}" WorkUnitID="{4C0AA67C-9D0E-4C17-B333-B8470CB23AB6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI" ID="{E2D5C042-138F-48DC-AD0B-F8E5A0839C1B}" WorkUnitID="{4C0AA67C-9D0E-4C17-B333-B8470CB23AB6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Warden" ID="{A938DC52-D1F9-4AF1-B563-853BCE9C3648}" WorkUnitID="{4C0AA67C-9D0E-4C17-B333-B8470CB23AB6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player" ID="{D2B8ECB7-5FD1-4E5A-8E2B-28652F799C0F}" WorkUnitID="{4C0AA67C-9D0E-4C17-B333-B8470CB23AB6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{C13134D5-7800-4DE2-888C-B01114C2D5CF}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Main_Menu_Music" ID="{F0BEC3F1-1C39-49C0-B6CB-CAC36CC78D26}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Main Menu" ID="{69EB04B2-9324-40F4-803D-40BDB2457ABC}" WorkUnitID="{142B329D-BCD9-4C03-8F63-9A5A2A78B81D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music_Slums" ID="{E032AA60-8A25-449F-B10F-90B71B2B5001}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Slums" ID="{A83BFBD2-9073-46B9-A40E-025BE3CF8F9A}" WorkUnitID="{142B329D-BCD9-4C03-8F63-9A5A2A78B81D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Dungeon_Soundbank" ID="{5657D359-922C-410A-A384-15B5D96B0C05}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Castle_Themes" ID="{E17DC04B-3326-412E-95D9-E40B9C688CD5}" WorkUnitID="{142B329D-BCD9-4C03-8F63-9A5A2A78B81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dungeon_Music" ID="{9A4A75C5-EFBE-437F-888F-A18C228EDD32}" WorkUnitID="{142B329D-BCD9-4C03-8F63-9A5A2A78B81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Torches" ID="{DE2CE746-5371-4F3A-9E68-CB9BB8619E32}" WorkUnitID="{4C0AA67C-9D0E-4C17-B333-B8470CB23AB6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

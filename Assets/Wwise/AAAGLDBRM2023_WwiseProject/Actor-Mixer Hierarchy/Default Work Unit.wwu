@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Test" ID="{15ACE9E2-CF58-4AED-B586-6A1128D00D2E}" ShortID="173126148">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Sound Name="Burn Test" ID="{6346C1EB-494A-418C-B47E-29873ED7AC9C}" ShortID="25013384">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="13"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GAM 507 - Demon Fireball - Burn" ID="{2AF8119A-885B-4E11-A923-5F98653808E1}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.307129997412835"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.417321675873929"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.991725106149844"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.55082013118446"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>GAM 507 - Demon Fireball - Burn .wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="36699401"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="GAM 507 - Demon Fireball - Burn" ID="{2AF8119A-885B-4E11-A923-5F98653808E1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Big Demon" ID="{7E392BB7-14F3-4E87-9F82-1B2BD5767CE1}" ShortID="434220538">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="11"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="Injured" ID="{2DE44D56-3FB9-4A8A-813B-9A8BB1EE5236}" ShortID="81159917">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Big Demon Injured" ID="{7B122E72-711C-4563-8C19-9B7DE3714AAF}" ShortID="73087122">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Ben - Big Demon - Hurt 1" ID="{EFD771F6-CA5B-435D-90D5-EA636C6E975A}" ShortID="5880709">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Big Demon Hurt 1" ID="{CC3850E7-8A11-484F-8F25-DBC1F6C83FFE}">
+													<Language>SFX</Language>
+													<AudioFile>Big Demon Hurt 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="998897374"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Big Demon Hurt 1" ID="{CC3850E7-8A11-484F-8F25-DBC1F6C83FFE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ben - Big Demon - Hurt 2" ID="{D5F41D6B-637B-470A-850E-23BD2EEDECBF}" ShortID="790668572">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Big Demon Hurt 2" ID="{3985697E-112D-4E65-8536-58637CA21560}">
+													<Language>SFX</Language>
+													<AudioFile>Big Demon Hurt 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="16368851"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Big Demon Hurt 2" ID="{3985697E-112D-4E65-8536-58637CA21560}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Death" ID="{F285EFD9-2E8C-4887-B12B-26762AFFFD06}" ShortID="313842997">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Big Demon Dead" ID="{A8EBF37C-CEAF-4ACB-8FF2-DB697BD90617}" ShortID="588018125">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Ben - Big Demon - Death 1" ID="{1B88E7EE-55DF-4C9C-A4D1-F852BA7F9DA3}" ShortID="924854444">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Big Demon Death 1" ID="{E56A9061-E885-4432-9049-3E58609AD22F}">
+													<Language>SFX</Language>
+													<AudioFile>Big Demon Death 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="749364720"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Big Demon Death 1" ID="{E56A9061-E885-4432-9049-3E58609AD22F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ben - Big Demon - Death 2" ID="{ABD20344-DB3E-426B-B45B-6F203DAC605A}" ShortID="918612370">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Big Demon Death 2" ID="{EF069B85-7839-44E6-8539-4753C2978344}">
+													<Language>SFX</Language>
+													<AudioFile>Big Demon Death 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="50817926"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Big Demon Death 2" ID="{EF069B85-7839-44E6-8539-4753C2978344}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Combat" ID="{7AC90A39-3C6D-489A-BE0B-7C3471648F27}" ShortID="402974860">
+							<ChildrenList>
+								<Sound Name="Ben - Big Demon - Melee" ID="{2AE669B7-0CEE-4B03-89A3-7C2545E1018F}" ShortID="113980019">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-750</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{04F3180F-9BC8-409B-9BC6-D6537F7E561B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-750"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Demon Melee Attack (claws)" ID="{CB23C9C5-FE01-4999-87F3-94DBD8D5B2AF}">
+											<Language>SFX</Language>
+											<AudioFile>Demon Melee Attack (claws).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="224374040"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Demon Melee Attack (claws)" ID="{CB23C9C5-FE01-4999-87F3-94DBD8D5B2AF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Small Demon" ID="{56FD581F-333D-4AD9-A864-92F2113D38BB}" ShortID="33506177">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="Injured" ID="{1B123EBC-7EDB-4C0B-99B8-9A94FC77607C}" ShortID="738152320">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Small Demon Injured" ID="{01802BA1-8162-4020-BD2F-49FAF9B8D55D}" ShortID="567242111">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Pawel - Small Demon 1 - Hurt" ID="{C1B7D544-B066-4BD1-9574-F02D84D521AD}" ShortID="376772791">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="9"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Imp 1 hurt" ID="{BB1FFA01-054C-4CDA-A7A6-8F3D5CA4C44A}">
+													<Language>SFX</Language>
+													<AudioFile>Imp 1 hurt.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1026548947"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Imp 1 hurt" ID="{BB1FFA01-054C-4CDA-A7A6-8F3D5CA4C44A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pawel - Small Demon 2 - Hurt" ID="{6F5380CF-A3E3-44F2-BD23-13ADAF14553B}" ShortID="1073091443">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="9"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Imp 2 hurt" ID="{647F5A67-92B2-435F-B7B5-BE24914A3E02}">
+													<Language>SFX</Language>
+													<AudioFile>Imp 2 hurt.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="760008828"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Imp 2 hurt" ID="{647F5A67-92B2-435F-B7B5-BE24914A3E02}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Death" ID="{84FD92A6-C988-4BD7-8D9F-6583A57F3027}" ShortID="280187376">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Small Demon Death" ID="{82463F68-9AB9-46BE-8A50-04429946591E}" ShortID="86302254">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Pawel - Small Demon 1 - Death" ID="{39DFCE3E-DEB2-41F4-AE21-1FB9D776BCE8}" ShortID="238301400">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="9"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Imp 1 death" ID="{9438DB10-1EA9-4A19-AA31-E6B45D2E801D}">
+													<Language>SFX</Language>
+													<AudioFile>Imp 1 death.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="756955648"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Imp 1 death" ID="{9438DB10-1EA9-4A19-AA31-E6B45D2E801D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pawel - Small Demon 2 - Death" ID="{72CE7AD4-E89D-47EE-B7F8-F23914094EB8}" ShortID="38101683">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="9"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Imp 2 death" ID="{2B9F642D-2C79-43C5-88D5-C3A41EC50817}">
+													<Language>SFX</Language>
+													<AudioFile>Imp 2 death.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="770360250"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Imp 2 death" ID="{2B9F642D-2C79-43C5-88D5-C3A41EC50817}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Combat" ID="{25819B31-630A-4687-BAB4-983AAB34105E}" ShortID="582445449">
+							<ChildrenList>
+								<Folder Name="Fireball" ID="{B19D5B07-756E-45BA-BD30-7DE7896CDD2D}" ShortID="398113549">
+									<ChildrenList>
+										<Sound Name="Robert - Small Demon - Fireball - Impact" ID="{4D8FAFB9-B447-4CF1-ABDF-92833A08FDC1}" ShortID="345380708">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Demon Fireball - Impact" ID="{EA0DECD8-A73D-4792-A070-6FA7D1049E77}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="1.64372323426015"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.64372323426015"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.78783454321326"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Demon Fireball - Impact.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="113532202"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Demon Fireball - Impact" ID="{EA0DECD8-A73D-4792-A070-6FA7D1049E77}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robert - Small Demon - Fireball - Throw" ID="{526B0B92-1586-4042-9C3C-7B1E6B7678F1}" ShortID="871365094">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Demon Fireball - Throw" ID="{C8863D1F-C2F3-487E-95C7-169472B2DD1A}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.153950885723417"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.231754021519122"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.23657324339132"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.92024760687273"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Demon Fireball - Throw.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="68704878"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Demon Fireball - Throw" ID="{C8863D1F-C2F3-487E-95C7-169472B2DD1A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robert - Small Demon - Fireball - Start" ID="{6E62D150-2E68-4B76-B2A0-178F104C5289}" ShortID="782133069">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Demon Fireball - Start" ID="{1E0F5BD1-4058-4675-BDC0-46805D330745}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.130123441994247"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.122393336529242"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.166197267497603"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.3398849472675"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Demon Fireball - Start.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="198117718"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Demon Fireball - Start" ID="{1E0F5BD1-4058-4675-BDC0-46805D330745}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robert - Small Demon - Fireball - Burn" ID="{DE628F39-0CAF-4FB8-ADAA-A446CA9C5BBE}" ShortID="91545409">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Demon Fireball - Burn" ID="{4F9D120D-C3FA-4D5A-88BC-A9AC0106BEB3}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.368087096135994"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.436077706250285"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.08081625043754"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.3843603615943"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Demon Fireball - Burn.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="922874722"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Demon Fireball - Burn" ID="{4F9D120D-C3FA-4D5A-88BC-A9AC0106BEB3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Melee" ID="{D4B2A0E2-2CCC-42E1-934F-E32A00780B0E}" ShortID="99268256">
+									<ChildrenList>
+										<Sound Name="Ben - Small Demon - Melee" ID="{FFE123FF-F519-4090-9A31-F6078513E673}" ShortID="526934639">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{9A974B81-CB12-4F09-A049-861A946850D1}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="125"/>
+																	<Property Name="Min" Type="Real64" Value="-125"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Demon Melee Attack (claws)" ID="{8D88966D-1103-4154-8965-84F4886DD64F}">
+													<Language>SFX</Language>
+													<AudioFile>Demon Melee Attack (claws).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="224374040"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Demon Melee Attack (claws)" ID="{8D88966D-1103-4154-8965-84F4886DD64F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player" ID="{B1AF6D6E-AEF7-4EB9-862C-ED8FC6AFA798}" ShortID="305064276">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="Injured" ID="{4C13707A-AFE7-4644-9EC1-67FC38EC2BC1}" ShortID="132949639">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Player Injured" ID="{23BFD2A1-F85E-4A38-B6B9-C8C12D038952}" ShortID="231652977">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Oli - Player - Hurt 2" ID="{8E340F75-3A9A-4E97-81A2-80DC62417DF6}" ShortID="222191774">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player Hurt Sfx 2" ID="{05062B0D-CE81-4845-A26B-0082EA138DB6}">
+													<Language>SFX</Language>
+													<AudioFile>Player Hurt Sfx 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="999679754"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Player Hurt Sfx 2" ID="{05062B0D-CE81-4845-A26B-0082EA138DB6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Oli - Player - Hurt 1" ID="{BFFE6430-BB95-43B9-AD41-D36BCBD0462E}" ShortID="199260749">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player Hurt Sfx 1" ID="{1E829F25-D3E2-4D49-AAB2-D88867602FA1}">
+													<Language>SFX</Language>
+													<AudioFile>Player Hurt Sfx 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="999803230"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Player Hurt Sfx 1" ID="{1E829F25-D3E2-4D49-AAB2-D88867602FA1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Oli - Player - Hurt 3" ID="{F4D0DFC6-E7D7-4C9A-AA62-2781D23D7B3B}" ShortID="728160773">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Player Hurt Sfx 3" ID="{2E3D6C67-A76A-4C03-856E-17E344F8F240}">
+													<Language>SFX</Language>
+													<AudioFile>Player Hurt Sfx 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="704562518"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Player Hurt Sfx 3" ID="{2E3D6C67-A76A-4C03-856E-17E344F8F240}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Combat" ID="{CE68B20B-8669-4C4D-923A-36773B4427DA}" ShortID="682887752">
+							<ChildrenList>
+								<Folder Name="Magic" ID="{BD42C494-067C-44B8-B499-E2296E02B78A}" ShortID="79021042">
+									<ChildrenList>
+										<Sound Name="Oli - Magic - Magic Projectile" ID="{8DE671DE-3806-48CF-9728-2B2EDFF1FD13}" ShortID="876296954">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Magic Projectile sfx" ID="{BB787714-3B76-4466-8494-862C90044555}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.600473399049217"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.877614967841163"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Magic Projectile sfx.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="162473452"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Magic Projectile sfx" ID="{BB787714-3B76-4466-8494-862C90044555}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Dagger" ID="{7436C52E-CDCA-40B6-963D-884A073B34C4}" ShortID="694249640">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Dagger Slash" ID="{1BF02A4F-5BD0-47DE-82C8-EE2126C06F9C}" ShortID="411561090">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pawel - Dagger - Slash 1" ID="{900C77B4-4264-4BF0-895D-352E55B774F7}" ShortID="529598356">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{D7D741E6-0C14-4D51-8C08-E097F2FAA14E}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="250"/>
+																			<Property Name="Min" Type="Real64" Value="-250"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{979D9053-7905-4227-9956-CB2BEA9723E5}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Dagger_Slash" ID="{58767FAB-D89F-4E77-BC85-81378E25046A}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0805369127516778"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0483221476510067"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.316778523489932"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.970469798657718"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Dagger_Slash.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="870645978"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Dagger_Slash" ID="{58767FAB-D89F-4E77-BC85-81378E25046A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pawel - Dagger - Slash 2" ID="{ED783A91-3829-4A4B-A902-F1356FDE2F18}" ShortID="411649909">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Dagger_Slash" ID="{E8110567-0EC2-422E-8389-1C5D0E1D55E6}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0416107382550336"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.17718120805369"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Dagger_Slash.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="395167253"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Dagger_Slash" ID="{E8110567-0EC2-422E-8389-1C5D0E1D55E6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Shotgun" ID="{574FC17C-1E4A-41FD-BCB8-0E3151EBA124}" ShortID="517638344">
+									<ChildrenList>
+										<Sound Name="Jack - Shotgun - Blast" ID="{AD225AEA-64F4-44DA-941F-56E1EC0F5F2A}" ShortID="13550877">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C3222420-D575-4B79-9485-F274DD94D9FD}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="500"/>
+																	<Property Name="Min" Type="Real64" Value="-500"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Shotgun blast" ID="{0763B7FA-362A-46D1-B822-2DFD8689B3CB}">
+													<Language>SFX</Language>
+													<AudioFile>Shotgun blast.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="835371390"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Shotgun blast" ID="{0763B7FA-362A-46D1-B822-2DFD8689B3CB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Jack - Shotgun - Shells" ID="{FE271230-376A-463C-8152-8C8187C86FF7}" ShortID="633557610">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="shell drop 1" ID="{2025803B-094B-4690-8E8D-0FE55C7AFA86}">
+													<Language>SFX</Language>
+													<AudioFile>shell drop 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="403613418"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="shell drop 1" ID="{2025803B-094B-4690-8E8D-0FE55C7AFA86}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Jack - Shotgun - Pump" ID="{FF3A0D10-6F16-41CF-9840-510A95370BC9}" ShortID="739479393">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{554AD0BE-CFE8-4DFE-AC31-92C428EA2112}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="500"/>
+																	<Property Name="Min" Type="Real64" Value="-500"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="shotgun pump" ID="{B216E728-F544-4031-A4D2-E88A633B387F}">
+													<Language>SFX</Language>
+													<AudioFile>shotgun pump.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="329205808"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="shotgun pump" ID="{B216E728-F544-4031-A4D2-E88A633B387F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Health" ID="{64CB4840-D128-4FAA-8238-B69495C6158A}" ShortID="452104300">
+							<ChildrenList>
+								<Sound Name="Jack - Player - Heartbeat" ID="{8E59E47C-9104-4E18-A5D3-61CF2EC4E20C}" ShortID="356227195">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F5A19199-9D22-40D5-B157-84BC60A846C3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="heartbeat" ID="{EE2E183E-DA06-478E-979A-7D5F7E0A4710}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.181208053691275"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.281879194630873"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.95973154362416"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>heartbeat.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1072204522"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="heartbeat" ID="{EE2E183E-DA06-478E-979A-7D5F7E0A4710}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{3E8CC0CC-68EB-4028-98DA-E3249ABCEC1E}" ShortID="830961590">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="Game Over Screen" ID="{138AD022-5252-43B3-8722-E946898F6E77}" ShortID="16266345">
+							<ChildrenList>
+								<Sound Name="Robert - UI - Game Over 3" ID="{94AEC0EC-E123-464A-9663-06065B1D2CB1}" ShortID="470985503">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GAM 507 Death sfx test - Track 3" ID="{AFAD963D-0A31-4D6C-836D-C0659125FB80}">
+											<Language>SFX</Language>
+											<AudioFile>GAM 507 Death sfx test - Track 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="842857749"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="GAM 507 Death sfx test - Track 3" ID="{AFAD963D-0A31-4D6C-836D-C0659125FB80}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Game Over" ID="{D1545708-109F-4934-9270-004A42140685}" ShortID="902870477">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Oli - UI - Game Over 1" ID="{41BDC965-E6AC-4FE6-A77E-1E1A3684E908}" ShortID="860756705">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Death SFX_" ID="{BC6F2422-8128-4F35-8201-2DA6789B9E31}">
+													<Language>SFX</Language>
+													<AudioFile>Death SFX_.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="386855703"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Death SFX_" ID="{BC6F2422-8128-4F35-8201-2DA6789B9E31}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robert - UI - Game Over 1" ID="{87F26903-7456-44E2-831C-490573E68095}" ShortID="1042255422">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GAM 507 Death sfx test - Track 1" ID="{C53513AD-34BC-452F-A444-EE385964D195}">
+													<Language>SFX</Language>
+													<AudioFile>GAM 507 Death sfx test - Track 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="428600881"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="GAM 507 Death sfx test - Track 1" ID="{C53513AD-34BC-452F-A444-EE385964D195}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robert - UI - Game Over 2" ID="{5B090362-0AA7-41C3-884F-AF9FE09E0553}" ShortID="406743209">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GAM 507 Death sfx test - Track 2" ID="{636CC88A-D917-414C-A449-2E96413A8A6F}">
+													<Language>SFX</Language>
+													<AudioFile>GAM 507 Death sfx test - Track 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="136779111"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="GAM 507 Death sfx test - Track 2" ID="{636CC88A-D917-414C-A449-2E96413A8A6F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robert - UI - Game Over 4" ID="{412201BD-0F45-477F-A840-13813E1F1727}" ShortID="364579057">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GAM 507 Death sfx test - Track 4" ID="{3BC1B0FE-5B83-4B77-B9F9-32C2CA52EBB0}">
+													<Language>SFX</Language>
+													<AudioFile>GAM 507 Death sfx test - Track 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1063620329"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="GAM 507 Death sfx test - Track 4" ID="{3BC1B0FE-5B83-4B77-B9F9-32C2CA52EBB0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robert - UI - Game Over 5" ID="{2BD9C0A2-C4D8-42CB-A960-12634D7BBC18}" ShortID="87515810">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GAM 507 Death sfx test - Track 5" ID="{A6BA2B4D-C3BC-4523-9650-F901AC081A05}">
+													<Language>SFX</Language>
+													<AudioFile>GAM 507 Death sfx test - Track 5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="134946698"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="GAM 507 Death sfx test - Track 5" ID="{A6BA2B4D-C3BC-4523-9650-F901AC081A05}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Sound Name="Pawel - UI - Button Click" ID="{2EA4E313-5442-4F51-B633-EC95E48CE677}" ShortID="360224794">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI sound" ID="{F852CFDF-A1AB-4466-BF45-85B0B4927B3E}">
+									<Language>SFX</Language>
+									<AudioFile>UI sound.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="700163977"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="UI sound" ID="{F852CFDF-A1AB-4466-BF45-85B0B4927B3E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Warden" ID="{FDC09348-3A7D-4053-8F3C-954B53FB8C56}" ShortID="804433586">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="Injured" ID="{3B9696AF-2F58-4527-A171-A54C8607F620}" ShortID="742690844">
+							<ChildrenList>
+								<Sound Name="Jack - Warden - Hurt" ID="{66EC8B8C-40AC-4B98-9066-4D39BCE10A37}" ShortID="1005056164">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="warden_damage" ID="{B6403134-1E20-4567-A726-01D7B4B41672}">
+											<Language>SFX</Language>
+											<AudioFile>warden_damage.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="168757338"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="warden_damage" ID="{B6403134-1E20-4567-A726-01D7B4B41672}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Death" ID="{7EBB023A-CE87-4348-A046-3FE44172C7A5}" ShortID="753635023">
+							<ChildrenList>
+								<Sound Name="Jack - Warden - Death" ID="{245EA113-6381-4170-B8E2-DE7FEA734E6B}" ShortID="251861770">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="warden_death" ID="{5DC5705C-4131-4BEC-A4A9-44E281334605}">
+											<Language>SFX</Language>
+											<AudioFile>warden_death.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="599307759"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="warden_death" ID="{5DC5705C-4131-4BEC-A4A9-44E281334605}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Combat" ID="{D6EF2445-E8F5-4911-B2C0-8151C549C6D9}" ShortID="619386124">
+							<ChildrenList>
+								<Sound Name="Jack - Warden - Combat" ID="{05389CA6-A99A-449B-B0C0-F964D9A02E3D}" ShortID="1043338736">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="warden_attack" ID="{39540930-485B-4FAA-B115-9D1B56794B71}">
+											<Language>SFX</Language>
+											<AudioFile>warden_attack.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="392238674"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="warden_attack" ID="{39540930-485B-4FAA-B115-9D1B56794B71}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Sound Name="Robert - Castle - Torches" ID="{72C963F2-FFAA-40E0-9973-F60A1D23548B}" ShortID="126502474">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{DFF60FC2-18C8-4C74-809E-02430AEBC0FF}" ShortID="735925419">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="20"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{A6433613-E96D-4FC9-A409-8757F3C910D7}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>20</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{86F05F49-9645-4CBF-9A06-81713D7C4EC5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB23C2A5-212C-4D4D-80EE-3D849C488E07}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Demon Fireball - Burn" ID="{3949A032-2A51-4E67-99AB-E2F6B30CD807}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.112536182258139"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.189904807560608"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.930768007426686"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.46407349069382"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Demon Fireball - Burn.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="201173851"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Demon Fireball - Burn" ID="{3949A032-2A51-4E67-99AB-E2F6B30CD807}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

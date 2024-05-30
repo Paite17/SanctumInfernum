@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	208989199	Slums_Theme			\Default Work Unit\Music\Slums\Slums_Theme	
+	2022975615	Slums_End			\Default Work Unit\Music\Slums\Slums_End	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	750499848	Slum_Ambience	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\Slum_Ambience_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Pawel - Music - Slums\Slum_Ambience		18432056
+

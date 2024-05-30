@@ -1,0 +1,1470 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d39056100589f8c4c9c075c369333a25, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: c6217df4e008b44fa0c2c835485fd24a
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: c6217df4e008b44fa0c2c835485fd24a
+    GuidInternal: 
+    m_lastTime: -8584996203305083655
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: a5c223cb2c214d4d80ee3d849c488e07
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: a5c223cb2c214d4d80ee3d849c488e07
+    GuidInternal: 
+    m_lastTime: -8584996203317808872
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a5c223cb2c214d4d80ee3d849c488e07
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 65cb81972caa534185b610ad080fb53e
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 65cb81972caa534185b610ad080fb53e
+    GuidInternal: 
+    m_lastTime: -8584996203305499274
+    List:
+    - name: Dungeon_Soundbank
+      guid: 59d357562c920a41a38415b5d96b0c05
+      id: 2508231523
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 65cb81972caa534185b610ad080fb53e
+      - ElementName: Dungeon_Soundbank
+        ObjectType: 7
+        guid: 59d357562c920a41a38415b5d96b0c05
+      Path: SoundBanks\Default Work Unit\Dungeon_Soundbank
+    - name: Main
+      guid: e704ab13a6656741885921b4f8b6c0c2
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 65cb81972caa534185b610ad080fb53e
+      - ElementName: Main
+        ObjectType: 7
+        guid: e704ab13a6656741885921b4f8b6c0c2
+      Path: SoundBanks\Default Work Unit\Main
+    - name: Main_Menu_Music
+      guid: f1c3bef0391cc049b6cbcac36cc78d26
+      id: 3399698792
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 65cb81972caa534185b610ad080fb53e
+      - ElementName: Main_Menu_Music
+        ObjectType: 7
+        guid: f1c3bef0391cc049b6cbcac36cc78d26
+      Path: SoundBanks\Default Work Unit\Main_Menu_Music
+    - name: Music
+      guid: d53431c10078e24d888cb01114c2d5cf
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 65cb81972caa534185b610ad080fb53e
+      - ElementName: Music
+        ObjectType: 7
+        guid: d53431c10078e24d888cb01114c2d5cf
+      Path: SoundBanks\Default Work Unit\Music
+    - name: Music_Slums
+      guid: 60aa32e0258a9f44b10f90b71b2b5001
+      id: 1368239717
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 65cb81972caa534185b610ad080fb53e
+      - ElementName: Music_Slums
+        ObjectType: 7
+        guid: 60aa32e0258a9f44b10f90b71b2b5001
+      Path: SoundBanks\Default Work Unit\Music_Slums
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+    ParentPath: Events\Default Work Unit
+    guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+    GuidInternal: 
+    m_lastTime: -8584996203331921570
+    List:
+    - name: Big Demon
+      guid: fff92ca6ff544c4691879a713dec1b58
+      id: 1200776840
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Big Demon
+        ObjectType: 4
+        guid: fff92ca6ff544c4691879a713dec1b58
+      Path: Events\Default Work Unit\Big Demon
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Big_Demon_Dead
+      guid: ab3e34c2a84c964abb66ec9b13f3cc92
+      id: 2472533742
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Big Demon
+        ObjectType: 4
+        guid: fff92ca6ff544c4691879a713dec1b58
+      - ElementName: Dead
+        ObjectType: 4
+        guid: 8fb56df9a189f746a258b63a9f8e3d6e
+      - ElementName: Big_Demon_Dead
+        ObjectType: 3
+        guid: ab3e34c2a84c964abb66ec9b13f3cc92
+      Path: Events\Default Work Unit\Big Demon\Dead\Big_Demon_Dead
+      maxAttenuation: 0
+      maxDuration: 0.874989
+      minDuration: 0.874989
+    - name: Big_Demon_Injured
+      guid: 1fc181074172644cb6e6c7913f73f646
+      id: 2180471771
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Big Demon
+        ObjectType: 4
+        guid: fff92ca6ff544c4691879a713dec1b58
+      - ElementName: Injured
+        ObjectType: 4
+        guid: 15e5ff9958fa5e4aa989a5a5746c758e
+      - ElementName: Big_Demon_Injured
+        ObjectType: 3
+        guid: 1fc181074172644cb6e6c7913f73f646
+      Path: Events\Default Work Unit\Big Demon\Injured\Big_Demon_Injured
+      maxAttenuation: 0
+      maxDuration: 0.5
+      minDuration: 0.5
+    - name: Big_Demon_Melee
+      guid: fd521ca470b33e4d88e3bff0d6104f1d
+      id: 1479837664
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Big Demon
+        ObjectType: 4
+        guid: fff92ca6ff544c4691879a713dec1b58
+      - ElementName: Combat
+        ObjectType: 4
+        guid: d4b6c1eb36d0fe42b5b1f8140857a256
+      - ElementName: Big_Demon_Melee
+        ObjectType: 3
+        guid: fd521ca470b33e4d88e3bff0d6104f1d
+      Path: Events\Default Work Unit\Big Demon\Combat\Big_Demon_Melee
+      maxAttenuation: 0
+      maxDuration: 5.351432
+      minDuration: 3.469974
+    - name: Button_Click
+      guid: 3df548c0945c7943b52b007169855355
+      id: 814543256
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: UI
+        ObjectType: 4
+        guid: 42c0d5e28f13dc48ad0bf8e5a0839c1b
+      - ElementName: Button_Click
+        ObjectType: 3
+        guid: 3df548c0945c7943b52b007169855355
+      Path: Events\Default Work Unit\UI\Button_Click
+      maxAttenuation: 0
+      maxDuration: 1.6
+      minDuration: 1.6
+    - name: Combat
+      guid: d4b6c1eb36d0fe42b5b1f8140857a256
+      id: 2764240573
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Big Demon
+        ObjectType: 4
+        guid: fff92ca6ff544c4691879a713dec1b58
+      - ElementName: Combat
+        ObjectType: 4
+        guid: d4b6c1eb36d0fe42b5b1f8140857a256
+      Path: Events\Default Work Unit\Big Demon\Combat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Combat
+      guid: 9471d206e007a74bbaa69e469ec61fd3
+      id: 2764240573
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Player
+        ObjectType: 4
+        guid: b7ecb8d2d15f5a4e8e2b28652f799c0f
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 9471d206e007a74bbaa69e469ec61fd3
+      Path: Events\Default Work Unit\Player\Combat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Combat
+      guid: 36990c78f71b6c4b9e59b72ff6f3bc53
+      id: 2764240573
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Warden
+        ObjectType: 4
+        guid: 52dc38a9f9d1f14ab563853bce9c3648
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 36990c78f71b6c4b9e59b72ff6f3bc53
+      Path: Events\Default Work Unit\Warden\Combat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Combat
+      guid: a951ad75a43bdd48984a85af4a820142
+      id: 2764240573
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Small Demon
+        ObjectType: 4
+        guid: e25e9d2b6898b146b15fa3cc00b8ddac
+      - ElementName: Combat
+        ObjectType: 4
+        guid: a951ad75a43bdd48984a85af4a820142
+      Path: Events\Default Work Unit\Small Demon\Combat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Dagger
+      guid: ef37540075fa344fbf929821fc985a98
+      id: 3732162827
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Player
+        ObjectType: 4
+        guid: b7ecb8d2d15f5a4e8e2b28652f799c0f
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 9471d206e007a74bbaa69e469ec61fd3
+      - ElementName: Dagger
+        ObjectType: 4
+        guid: ef37540075fa344fbf929821fc985a98
+      Path: Events\Default Work Unit\Player\Combat\Dagger
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Dagger_Slash
+      guid: 39be5a47c15c0044a440d42a04f4ffb5
+      id: 114434101
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Player
+        ObjectType: 4
+        guid: b7ecb8d2d15f5a4e8e2b28652f799c0f
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 9471d206e007a74bbaa69e469ec61fd3
+      - ElementName: Dagger
+        ObjectType: 4
+        guid: ef37540075fa344fbf929821fc985a98
+      - ElementName: Dagger_Slash
+        ObjectType: 3
+        guid: 39be5a47c15c0044a440d42a04f4ffb5
+      Path: Events\Default Work Unit\Player\Combat\Dagger\Dagger_Slash
+      maxAttenuation: 0
+      maxDuration: 0.755244
+      minDuration: 0.422819
+    - name: Dead
+      guid: 3914ba9c9f13c943bf288f6c7ffd9539
+      id: 2044049779
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Small Demon
+        ObjectType: 4
+        guid: e25e9d2b6898b146b15fa3cc00b8ddac
+      - ElementName: Dead
+        ObjectType: 4
+        guid: 3914ba9c9f13c943bf288f6c7ffd9539
+      Path: Events\Default Work Unit\Small Demon\Dead
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Dead
+      guid: 8fb56df9a189f746a258b63a9f8e3d6e
+      id: 2044049779
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Big Demon
+        ObjectType: 4
+        guid: fff92ca6ff544c4691879a713dec1b58
+      - ElementName: Dead
+        ObjectType: 4
+        guid: 8fb56df9a189f746a258b63a9f8e3d6e
+      Path: Events\Default Work Unit\Big Demon\Dead
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Dead
+      guid: 8dcd1f2f1c02854c90eeaf531fb2571e
+      id: 2044049779
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Warden
+        ObjectType: 4
+        guid: 52dc38a9f9d1f14ab563853bce9c3648
+      - ElementName: Dead
+        ObjectType: 4
+        guid: 8dcd1f2f1c02854c90eeaf531fb2571e
+      Path: Events\Default Work Unit\Warden\Dead
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Dead
+      guid: f9b88a9e53ba5244bc303ab449d9f1d4
+      id: 2044049779
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Player
+        ObjectType: 4
+        guid: b7ecb8d2d15f5a4e8e2b28652f799c0f
+      - ElementName: Dead
+        ObjectType: 4
+        guid: f9b88a9e53ba5244bc303ab449d9f1d4
+      Path: Events\Default Work Unit\Player\Dead
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Health
+      guid: e8c87bf2c3df744fbc07eb14beba5aa7
+      id: 3677180323
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Player
+        ObjectType: 4
+        guid: b7ecb8d2d15f5a4e8e2b28652f799c0f
+      - ElementName: Health
+        ObjectType: 4
+        guid: e8c87bf2c3df744fbc07eb14beba5aa7
+      Path: Events\Default Work Unit\Player\Health
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Injured
+      guid: 61afa21e74b72c45b5e8f078b162727a
+      id: 2860195132
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Player
+        ObjectType: 4
+        guid: b7ecb8d2d15f5a4e8e2b28652f799c0f
+      - ElementName: Injured
+        ObjectType: 4
+        guid: 61afa21e74b72c45b5e8f078b162727a
+      Path: Events\Default Work Unit\Player\Injured
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Injured
+      guid: 9c75eaa2b017c241a26f227facf172eb
+      id: 2860195132
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Warden
+        ObjectType: 4
+        guid: 52dc38a9f9d1f14ab563853bce9c3648
+      - ElementName: Injured
+        ObjectType: 4
+        guid: 9c75eaa2b017c241a26f227facf172eb
+      Path: Events\Default Work Unit\Warden\Injured
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Injured
+      guid: d88f67b12e350d4b9d72a25648eca807
+      id: 2860195132
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Small Demon
+        ObjectType: 4
+        guid: e25e9d2b6898b146b15fa3cc00b8ddac
+      - ElementName: Injured
+        ObjectType: 4
+        guid: d88f67b12e350d4b9d72a25648eca807
+      Path: Events\Default Work Unit\Small Demon\Injured
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Injured
+      guid: 15e5ff9958fa5e4aa989a5a5746c758e
+      id: 2860195132
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Big Demon
+        ObjectType: 4
+        guid: fff92ca6ff544c4691879a713dec1b58
+      - ElementName: Injured
+        ObjectType: 4
+        guid: 15e5ff9958fa5e4aa989a5a5746c758e
+      Path: Events\Default Work Unit\Big Demon\Injured
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Magic
+      guid: b780c839321d1e48a4f17746b4727a6a
+      id: 1880439950
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Player
+        ObjectType: 4
+        guid: b7ecb8d2d15f5a4e8e2b28652f799c0f
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 9471d206e007a74bbaa69e469ec61fd3
+      - ElementName: Magic
+        ObjectType: 4
+        guid: b780c839321d1e48a4f17746b4727a6a
+      Path: Events\Default Work Unit\Player\Combat\Magic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Magic_Projectile
+      guid: 18eac460937a9e4b950c6f941a40174b
+      id: 4103199500
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Player
+        ObjectType: 4
+        guid: b7ecb8d2d15f5a4e8e2b28652f799c0f
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 9471d206e007a74bbaa69e469ec61fd3
+      - ElementName: Magic
+        ObjectType: 4
+        guid: b780c839321d1e48a4f17746b4727a6a
+      - ElementName: Magic_Projectile
+        ObjectType: 3
+        guid: 18eac460937a9e4b950c6f941a40174b
+      Path: Events\Default Work Unit\Player\Combat\Magic\Magic_Projectile
+      maxAttenuation: 0
+      maxDuration: 4.235291
+      minDuration: 4.235291
+    - name: Play_Burn_Test
+      guid: 0e9975ed8c3cc442930e9e9155008992
+      id: 2393980604
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Test
+        ObjectType: 4
+        guid: 4f8f47264f244b49b502c96e326df01e
+      - ElementName: Play_Burn_Test
+        ObjectType: 3
+        guid: 0e9975ed8c3cc442930e9e9155008992
+      Path: Events\Default Work Unit\Test\Play_Burn_Test
+      maxAttenuation: 0
+      maxDuration: 1.559095
+      minDuration: 1.559095
+    - name: Play_GameOver_Cue
+      guid: 5f38a0019e0bfc488f3dc4fb4aa9eddb
+      id: 540387002
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Player
+        ObjectType: 4
+        guid: b7ecb8d2d15f5a4e8e2b28652f799c0f
+      - ElementName: Dead
+        ObjectType: 4
+        guid: f9b88a9e53ba5244bc303ab449d9f1d4
+      - ElementName: Play_GameOver_Cue
+        ObjectType: 3
+        guid: 5f38a0019e0bfc488f3dc4fb4aa9eddb
+      Path: Events\Default Work Unit\Player\Dead\Play_GameOver_Cue
+      maxAttenuation: 0
+      maxDuration: 16.669638
+      minDuration: 8
+    - name: Play_Torches
+      guid: 46e72cde71533a4f9e68cb9bb8619e32
+      id: 1256842828
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Play_Torches
+        ObjectType: 3
+        guid: 46e72cde71533a4f9e68cb9bb8619e32
+      Path: Events\Default Work Unit\Play_Torches
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player
+      guid: b7ecb8d2d15f5a4e8e2b28652f799c0f
+      id: 1069431850
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Player
+        ObjectType: 4
+        guid: b7ecb8d2d15f5a4e8e2b28652f799c0f
+      Path: Events\Default Work Unit\Player
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player_Injured
+      guid: 2a48dbfcf5229743837da0813946bdfc
+      id: 27255824
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Player
+        ObjectType: 4
+        guid: b7ecb8d2d15f5a4e8e2b28652f799c0f
+      - ElementName: Injured
+        ObjectType: 4
+        guid: 61afa21e74b72c45b5e8f078b162727a
+      - ElementName: Player_Injured
+        ObjectType: 3
+        guid: 2a48dbfcf5229743837da0813946bdfc
+      Path: Events\Default Work Unit\Player\Injured\Player_Injured
+      maxAttenuation: 0
+      maxDuration: 0.5
+      minDuration: 0.35415
+    - name: Player_LowHealth
+      guid: e0bda7ed69e006498d4973d54a7e52f0
+      id: 3634256599
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Player
+        ObjectType: 4
+        guid: b7ecb8d2d15f5a4e8e2b28652f799c0f
+      - ElementName: Health
+        ObjectType: 4
+        guid: e8c87bf2c3df744fbc07eb14beba5aa7
+      - ElementName: Player_LowHealth
+        ObjectType: 3
+        guid: e0bda7ed69e006498d4973d54a7e52f0
+      Path: Events\Default Work Unit\Player\Health\Player_LowHealth
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player_NormalHealth
+      guid: 63168ffbb3764a458c25c79da6d996ce
+      id: 2696132222
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Player
+        ObjectType: 4
+        guid: b7ecb8d2d15f5a4e8e2b28652f799c0f
+      - ElementName: Health
+        ObjectType: 4
+        guid: e8c87bf2c3df744fbc07eb14beba5aa7
+      - ElementName: Player_NormalHealth
+        ObjectType: 3
+        guid: 63168ffbb3764a458c25c79da6d996ce
+      Path: Events\Default Work Unit\Player\Health\Player_NormalHealth
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Shotgun
+      guid: 8efa62564ed586468a8eb4f72cdf2b15
+      id: 51683977
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Player
+        ObjectType: 4
+        guid: b7ecb8d2d15f5a4e8e2b28652f799c0f
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 9471d206e007a74bbaa69e469ec61fd3
+      - ElementName: Shotgun
+        ObjectType: 4
+        guid: 8efa62564ed586468a8eb4f72cdf2b15
+      Path: Events\Default Work Unit\Player\Combat\Shotgun
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Shotgun_Fire
+      guid: 6206ef1daadcad43a936a39224ccc97a
+      id: 3982195600
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Player
+        ObjectType: 4
+        guid: b7ecb8d2d15f5a4e8e2b28652f799c0f
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 9471d206e007a74bbaa69e469ec61fd3
+      - ElementName: Shotgun
+        ObjectType: 4
+        guid: 8efa62564ed586468a8eb4f72cdf2b15
+      - ElementName: Shotgun_Fire
+        ObjectType: 3
+        guid: 6206ef1daadcad43a936a39224ccc97a
+      Path: Events\Default Work Unit\Player\Combat\Shotgun\Shotgun_Fire
+      maxAttenuation: 0
+      maxDuration: 1.662034
+      minDuration: 1.152169
+    - name: Small Demon
+      guid: e25e9d2b6898b146b15fa3cc00b8ddac
+      id: 641229763
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Small Demon
+        ObjectType: 4
+        guid: e25e9d2b6898b146b15fa3cc00b8ddac
+      Path: Events\Default Work Unit\Small Demon
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Small_Demon_Dead
+      guid: 945ab5b7de6650499582549f6f645ad9
+      id: 2182621371
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Small Demon
+        ObjectType: 4
+        guid: e25e9d2b6898b146b15fa3cc00b8ddac
+      - ElementName: Dead
+        ObjectType: 4
+        guid: 3914ba9c9f13c943bf288f6c7ffd9539
+      - ElementName: Small_Demon_Dead
+        ObjectType: 3
+        guid: 945ab5b7de6650499582549f6f645ad9
+      Path: Events\Default Work Unit\Small Demon\Dead\Small_Demon_Dead
+      maxAttenuation: 0
+      maxDuration: 1.2
+      minDuration: 1.142857
+    - name: Small_Demon_Fireball
+      guid: 694e491b2e728a4cb0a57933613e5d36
+      id: 658204658
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Small Demon
+        ObjectType: 4
+        guid: e25e9d2b6898b146b15fa3cc00b8ddac
+      - ElementName: Combat
+        ObjectType: 4
+        guid: a951ad75a43bdd48984a85af4a820142
+      - ElementName: Small_Demon_Fireball
+        ObjectType: 3
+        guid: 694e491b2e728a4cb0a57933613e5d36
+      Path: Events\Default Work Unit\Small Demon\Combat\Small_Demon_Fireball
+      maxAttenuation: 0
+      maxDuration: 2.243401
+      minDuration: 2.243401
+    - name: Small_Demon_Injured
+      guid: 8717c2fdaad9374d81a06d8da24693d0
+      id: 1777701508
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Small Demon
+        ObjectType: 4
+        guid: e25e9d2b6898b146b15fa3cc00b8ddac
+      - ElementName: Injured
+        ObjectType: 4
+        guid: d88f67b12e350d4b9d72a25648eca807
+      - ElementName: Small_Demon_Injured
+        ObjectType: 3
+        guid: 8717c2fdaad9374d81a06d8da24693d0
+      Path: Events\Default Work Unit\Small Demon\Injured\Small_Demon_Injured
+      maxAttenuation: 0
+      maxDuration: 1.2
+      minDuration: 0.7
+    - name: Small_Demon_Melee
+      guid: e67f9ed7a246284c9a1483199137361c
+      id: 3767552163
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Small Demon
+        ObjectType: 4
+        guid: e25e9d2b6898b146b15fa3cc00b8ddac
+      - ElementName: Combat
+        ObjectType: 4
+        guid: a951ad75a43bdd48984a85af4a820142
+      - ElementName: Small_Demon_Melee
+        ObjectType: 3
+        guid: e67f9ed7a246284c9a1483199137361c
+      Path: Events\Default Work Unit\Small Demon\Combat\Small_Demon_Melee
+      maxAttenuation: 0
+      maxDuration: 2.418465
+      minDuration: 2.09327
+    - name: Test
+      guid: 4f8f47264f244b49b502c96e326df01e
+      id: 3157003241
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Test
+        ObjectType: 4
+        guid: 4f8f47264f244b49b502c96e326df01e
+      Path: Events\Default Work Unit\Test
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: UI
+      guid: 42c0d5e28f13dc48ad0bf8e5a0839c1b
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: UI
+        ObjectType: 4
+        guid: 42c0d5e28f13dc48ad0bf8e5a0839c1b
+      Path: Events\Default Work Unit\UI
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Warden
+      guid: 52dc38a9f9d1f14ab563853bce9c3648
+      id: 2548284838
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Warden
+        ObjectType: 4
+        guid: 52dc38a9f9d1f14ab563853bce9c3648
+      Path: Events\Default Work Unit\Warden
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Warden_Dead
+      guid: ad8710d5484eec4b9bba7a3f884eadd7
+      id: 2607442107
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Warden
+        ObjectType: 4
+        guid: 52dc38a9f9d1f14ab563853bce9c3648
+      - ElementName: Dead
+        ObjectType: 4
+        guid: 8dcd1f2f1c02854c90eeaf531fb2571e
+      - ElementName: Warden_Dead
+        ObjectType: 3
+        guid: ad8710d5484eec4b9bba7a3f884eadd7
+      Path: Events\Default Work Unit\Warden\Dead\Warden_Dead
+      maxAttenuation: 0
+      maxDuration: 3.236604
+      minDuration: 3.236604
+    - name: Warden_DrillHands
+      guid: d6b33fd2816f7044ac23131156d5a9f1
+      id: 145123698
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Warden
+        ObjectType: 4
+        guid: 52dc38a9f9d1f14ab563853bce9c3648
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 36990c78f71b6c4b9e59b72ff6f3bc53
+      - ElementName: Warden_DrillHands
+        ObjectType: 3
+        guid: d6b33fd2816f7044ac23131156d5a9f1
+      Path: Events\Default Work Unit\Warden\Combat\Warden_DrillHands
+      maxAttenuation: 0
+      maxDuration: 1.5
+      minDuration: 1.5
+    - name: Warden_Injured
+      guid: c64636c7411549498c0bf5024c0b79ad
+      id: 3620622980
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Warden
+        ObjectType: 4
+        guid: 52dc38a9f9d1f14ab563853bce9c3648
+      - ElementName: Injured
+        ObjectType: 4
+        guid: 9c75eaa2b017c241a26f227facf172eb
+      - ElementName: Warden_Injured
+        ObjectType: 3
+        guid: c64636c7411549498c0bf5024c0b79ad
+      Path: Events\Default Work Unit\Warden\Injured\Warden_Injured
+      maxAttenuation: 0
+      maxDuration: 0.705354
+      minDuration: 0.705354
+  - PhysicalPath: Events\Music.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+    - ElementName: Music
+      ObjectType: 12
+      guid: 9d322b14d9bc034c8f639a5a2a78b81d
+    ParentPath: Events\Default Work Unit\Music
+    guid: 9d322b14d9bc034c8f639a5a2a78b81d
+    GuidInternal: 
+    m_lastTime: -8584996203331911528
+    List:
+    - name: Castle
+      guid: 4529cf45dc0de94aa731c6e0f0bd05ac
+      id: 129146593
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Music
+        ObjectType: 12
+        guid: 9d322b14d9bc034c8f639a5a2a78b81d
+      - ElementName: Castle
+        ObjectType: 4
+        guid: 4529cf45dc0de94aa731c6e0f0bd05ac
+      Path: Events\Default Work Unit\Music\Castle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Castle_Themes
+      guid: 4bc07de126332e4195d9e40b9c688cd5
+      id: 305072610
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Music
+        ObjectType: 12
+        guid: 9d322b14d9bc034c8f639a5a2a78b81d
+      - ElementName: Castle
+        ObjectType: 4
+        guid: 4529cf45dc0de94aa731c6e0f0bd05ac
+      - ElementName: Castle_Themes
+        ObjectType: 3
+        guid: 4bc07de126332e4195d9e40b9c688cd5
+      Path: Events\Default Work Unit\Music\Castle\Castle_Themes
+      maxAttenuation: 0
+      maxDuration: 80
+      minDuration: 80
+    - name: Combat
+      guid: 77ce533fc5abf349a50c118bb4fc6d4c
+      id: 2764240573
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Music
+        ObjectType: 12
+        guid: 9d322b14d9bc034c8f639a5a2a78b81d
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 77ce533fc5abf349a50c118bb4fc6d4c
+      Path: Events\Default Work Unit\Music\Combat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Dialogue
+      guid: 49867a65188cb74b96ce318cb2db61d0
+      id: 3930136735
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Music
+        ObjectType: 12
+        guid: 9d322b14d9bc034c8f639a5a2a78b81d
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: 49867a65188cb74b96ce318cb2db61d0
+      Path: Events\Default Work Unit\Music\Dialogue
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Dialogue_End
+      guid: 10046abe5251e845bfc4042b4f278f6e
+      id: 220989185
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Music
+        ObjectType: 12
+        guid: 9d322b14d9bc034c8f639a5a2a78b81d
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: 49867a65188cb74b96ce318cb2db61d0
+      - ElementName: Dialogue_End
+        ObjectType: 3
+        guid: 10046abe5251e845bfc4042b4f278f6e
+      Path: Events\Default Work Unit\Music\Dialogue\Dialogue_End
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Dialogue_Start
+      guid: 4166c57114846441b0615274db64d18c
+      id: 1196626930
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Music
+        ObjectType: 12
+        guid: 9d322b14d9bc034c8f639a5a2a78b81d
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: 49867a65188cb74b96ce318cb2db61d0
+      - ElementName: Dialogue_Start
+        ObjectType: 3
+        guid: 4166c57114846441b0615274db64d18c
+      Path: Events\Default Work Unit\Music\Dialogue\Dialogue_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Dungeon
+      guid: 24fa79a07e3f884180679faf3c4cfc5c
+      id: 608898761
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Music
+        ObjectType: 12
+        guid: 9d322b14d9bc034c8f639a5a2a78b81d
+      - ElementName: Dungeon
+        ObjectType: 4
+        guid: 24fa79a07e3f884180679faf3c4cfc5c
+      Path: Events\Default Work Unit\Music\Dungeon
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Dungeon_Music
+      guid: c5754a9abeef7f43888fa18c228edd32
+      id: 1070605181
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Music
+        ObjectType: 12
+        guid: 9d322b14d9bc034c8f639a5a2a78b81d
+      - ElementName: Dungeon
+        ObjectType: 4
+        guid: 24fa79a07e3f884180679faf3c4cfc5c
+      - ElementName: Dungeon_Music
+        ObjectType: 3
+        guid: c5754a9abeef7f43888fa18c228edd32
+      Path: Events\Default Work Unit\Music\Dungeon\Dungeon_Music
+      maxAttenuation: 0
+      maxDuration: 68.00036
+      minDuration: 68.00036
+    - name: Enemies_Defeated
+      guid: f548f7d403a3af4a977be3d8f438682d
+      id: 982464208
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Music
+        ObjectType: 12
+        guid: 9d322b14d9bc034c8f639a5a2a78b81d
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 77ce533fc5abf349a50c118bb4fc6d4c
+      - ElementName: Enemies_Defeated
+        ObjectType: 3
+        guid: f548f7d403a3af4a977be3d8f438682d
+      Path: Events\Default Work Unit\Music\Combat\Enemies_Defeated
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Main Menu
+      guid: b204eb692493f440803d40bdb2457abc
+      id: 1026774399
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Music
+        ObjectType: 12
+        guid: 9d322b14d9bc034c8f639a5a2a78b81d
+      - ElementName: Main Menu
+        ObjectType: 4
+        guid: b204eb692493f440803d40bdb2457abc
+      Path: Events\Default Work Unit\Music\Main Menu
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Menu_End
+      guid: bc38d8d3403c5c448c8c036f1cad5ce9
+      id: 2635200406
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Music
+        ObjectType: 12
+        guid: 9d322b14d9bc034c8f639a5a2a78b81d
+      - ElementName: Main Menu
+        ObjectType: 4
+        guid: b204eb692493f440803d40bdb2457abc
+      - ElementName: Menu_End
+        ObjectType: 3
+        guid: bc38d8d3403c5c448c8c036f1cad5ce9
+      Path: Events\Default Work Unit\Music\Main Menu\Menu_End
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Menu_Start
+      guid: d67e5d417075a84386cd8a87da5b3296
+      id: 3908297853
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Music
+        ObjectType: 12
+        guid: 9d322b14d9bc034c8f639a5a2a78b81d
+      - ElementName: Main Menu
+        ObjectType: 4
+        guid: b204eb692493f440803d40bdb2457abc
+      - ElementName: Menu_Start
+        ObjectType: 3
+        guid: d67e5d417075a84386cd8a87da5b3296
+      Path: Events\Default Work Unit\Music\Main Menu\Menu_Start
+      maxAttenuation: 0
+      maxDuration: 139.2
+      minDuration: 139.2
+    - name: Player_Seen
+      guid: de4f9f290be5824789371bff70012491
+      id: 3526534048
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Music
+        ObjectType: 12
+        guid: 9d322b14d9bc034c8f639a5a2a78b81d
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 77ce533fc5abf349a50c118bb4fc6d4c
+      - ElementName: Player_Seen
+        ObjectType: 3
+        guid: de4f9f290be5824789371bff70012491
+      Path: Events\Default Work Unit\Music\Combat\Player_Seen
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Slums
+      guid: d2fb3ba87390b946a40e025be3cf8f9a
+      id: 45224797
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Music
+        ObjectType: 12
+        guid: 9d322b14d9bc034c8f639a5a2a78b81d
+      - ElementName: Slums
+        ObjectType: 4
+        guid: d2fb3ba87390b946a40e025be3cf8f9a
+      Path: Events\Default Work Unit\Music\Slums
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Slums_End
+      guid: 24c69c01b324014d9bfb2ba3140f0788
+      id: 2022975615
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Music
+        ObjectType: 12
+        guid: 9d322b14d9bc034c8f639a5a2a78b81d
+      - ElementName: Slums
+        ObjectType: 4
+        guid: d2fb3ba87390b946a40e025be3cf8f9a
+      - ElementName: Slums_End
+        ObjectType: 3
+        guid: 24c69c01b324014d9bfb2ba3140f0788
+      Path: Events\Default Work Unit\Music\Slums\Slums_End
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Slums_Theme
+      guid: 37b0bfc68880024fbe876107af997a38
+      id: 208989199
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ca60a4c0e9d174cb333b8470cb23ab6
+      - ElementName: Music
+        ObjectType: 12
+        guid: 9d322b14d9bc034c8f639a5a2a78b81d
+      - ElementName: Slums
+        ObjectType: 4
+        guid: d2fb3ba87390b946a40e025be3cf8f9a
+      - ElementName: Slums_Theme
+        ObjectType: 3
+        guid: 37b0bfc68880024fbe876107af997a38
+      Path: Events\Default Work Unit\Music\Slums\Slums_Theme
+      maxAttenuation: 0
+      maxDuration: 95.99996
+      minDuration: 95.99996
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 91eca2b5b382ad4c82575c95b369e87a
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 91eca2b5b382ad4c82575c95b369e87a
+    GuidInternal: 
+    m_lastTime: -8584996203331887074
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 2cc489a5c2edc349bd6f457603285a7c
+    ParentPath: States\Default Work Unit
+    guid: 2cc489a5c2edc349bd6f457603285a7c
+    GuidInternal: 
+    m_lastTime: -8584996203305325789
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: fa3ff825afbd864d90424f929a4b449d
+    ParentPath: Switches\Default Work Unit
+    guid: fa3ff825afbd864d90424f929a4b449d
+    GuidInternal: 
+    m_lastTime: -8584996203305285766
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 05b2f7d5fb62bb46b92fad26bea3cd66
+    ParentPath: Triggers\Default Work Unit
+    guid: 05b2f7d5fb62bb46b92fad26bea3cd66
+    GuidInternal: 
+    m_lastTime: -8584996203305224718
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

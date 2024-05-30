@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a05d9e531df35045ac600f5650c36f8, type: 3}
+  m_Name: 9A4A75C5-EFBE-437F-888F-A18C228EDD32
+  m_EditorClassIdentifier: 
+  objectName: Dungeon_Music
+  id: 1070605181
+  guid: 9A4A75C5-EFBE-437F-888F-A18C228EDD32

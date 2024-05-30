@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\Assets\StreamingAssets\Audio\GeneratedSoundBanks\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1368239717" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music_Slums</ObjectPath>
+			<ShortName>Music_Slums</ShortName>
+			<Path>Music_Slums.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2022975615" Name="Slums_End" ObjectPath="\Events\Default Work Unit\Music\Slums\Slums_End" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="208989199" Name="Slums_Theme" ObjectPath="\Events\Default Work Unit\Music\Slums\Slums_Theme" DurationType="OneShot" DurationMin="95.999962" DurationMax="95.999962">
+					<IncludedMemoryFiles>
+						<File Id="750499848" Language="SFX">
+							<ShortName>Slum_Ambience.wav</ShortName>
+							<Path>SFX\Slum_Ambience_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="2508231523" Language="SFX" Hash="281821414">
+			<ObjectPath>\SoundBanks\Default Work Unit\Dungeon_Soundbank</ObjectPath>
+			<ShortName>Dungeon_Soundbank</ShortName>
+			<Path>Dungeon_Soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1070605181" Name="Dungeon_Music" ObjectPath="\Events\Default Work Unit\Music\Dungeon\Dungeon_Music" DurationType="OneShot" DurationMin="68.000359" DurationMax="68.000359">
+					<IncludedMemoryFiles>
+						<File Id="204582767" Language="SFX">
+							<ShortName>Oli - Music - Dungeon .wav</ShortName>
+							<Path>SFX\Oli - Music - Dungeon _D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="2673971433" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music_Castle</ObjectPath>
+			<ShortName>Music_Castle</ShortName>
+			<Path>Music_Castle.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2472533742" Name="Big_Demon_Dead" ObjectPath="\Events\Default Work Unit\Big Demon\Dead\Big_Demon_Dead" DurationType="OneShot" DurationMin="0.874989" DurationMax="0.874989">
+					<IncludedMemoryFiles>
+						<File Id="50817926" Language="SFX">
+							<ShortName>Big Demon Death 2.wav</ShortName>
+							<Path>SFX\Big Demon Death 2_10C4C929.wem</Path>
+						</File>
+						<File Id="749364720" Language="SFX">
+							<ShortName>Big Demon Death 1.wav</ShortName>
+							<Path>SFX\Big Demon Death 1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2180471771" Name="Big_Demon_Injured" ObjectPath="\Events\Default Work Unit\Big Demon\Injured\Big_Demon_Injured" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<IncludedMemoryFiles>
+						<File Id="16368851" Language="SFX">
+							<ShortName>Big Demon Hurt 2.wav</ShortName>
+							<Path>SFX\Big Demon Hurt 2_10C4C929.wem</Path>
+						</File>
+						<File Id="998897374" Language="SFX">
+							<ShortName>Big Demon Hurt 1.wav</ShortName>
+							<Path>SFX\Big Demon Hurt 1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1479837664" Name="Big_Demon_Melee" ObjectPath="\Events\Default Work Unit\Big Demon\Combat\Big_Demon_Melee" DurationType="OneShot" DurationMin="3.469974" DurationMax="5.351432">
+					<IncludedMemoryFiles>
+						<File Id="224374040" Language="SFX">
+							<ShortName>Demon Melee Attack (claws).wav</ShortName>
+							<Path>SFX\Demon Melee Attack (claws)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="814543256" Name="Button_Click" ObjectPath="\Events\Default Work Unit\UI\Button_Click" DurationType="OneShot" DurationMin="1.6" DurationMax="1.6">
+					<IncludedMemoryFiles>
+						<File Id="700163977" Language="SFX">
+							<ShortName>UI sound.wav</ShortName>
+							<Path>SFX\UI sound_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="114434101" Name="Dagger_Slash" ObjectPath="\Events\Default Work Unit\Player\Combat\Dagger\Dagger_Slash" DurationType="OneShot" DurationMin="0.422819" DurationMax="0.755244">
+					<IncludedMemoryFiles>
+						<File Id="395167253" Language="SFX">
+							<ShortName>Dagger_Slash.wav</ShortName>
+							<Path>SFX\Dagger_Slash_512D42C6.wem</Path>
+						</File>
+						<File Id="870645978" Language="SFX">
+							<ShortName>Dagger_Slash.wav</ShortName>
+							<Path>SFX\Dagger_Slash_E5BED820.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4103199500" Name="Magic_Projectile" ObjectPath="\Events\Default Work Unit\Player\Combat\Magic\Magic_Projectile" DurationType="OneShot" DurationMin="4.235291" DurationMax="4.235291">
+					<IncludedMemoryFiles>
+						<File Id="162473452" Language="SFX">
+							<ShortName>Magic Projectile sfx.wav</ShortName>
+							<Path>SFX\Magic Projectile sfx_2E855A5C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2393980604" Name="Play_Burn_Test" ObjectPath="\Events\Default Work Unit\Test\Play_Burn_Test" DurationType="OneShot" DurationMin="1.559095" DurationMax="1.559095">
+					<IncludedMemoryFiles>
+						<File Id="36699401" Language="SFX">
+							<ShortName>GAM 507 - Demon Fireball - Burn .wav</ShortName>
+							<Path>SFX\GAM 507 - Demon Fireball - Burn _AD661F34.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="540387002" Name="Play_GameOver_Cue" ObjectPath="\Events\Default Work Unit\Player\Dead\Play_GameOver_Cue" DurationType="OneShot" DurationMin="8." DurationMax="16.669638">
+					<IncludedMemoryFiles>
+						<File Id="134946698" Language="SFX">
+							<ShortName>GAM 507 Death sfx test - Track 5.wav</ShortName>
+							<Path>SFX\GAM 507 Death sfx test - Track 5_10C4C929.wem</Path>
+						</File>
+						<File Id="136779111" Language="SFX">
+							<ShortName>GAM 507 Death sfx test - Track 2.wav</ShortName>
+							<Path>SFX\GAM 507 Death sfx test - Track 2_10C4C929.wem</Path>
+						</File>
+						<File Id="386855703" Language="SFX">
+							<ShortName>Death SFX_.wav</ShortName>
+							<Path>SFX\Death SFX__10C4C929.wem</Path>
+						</File>
+						<File Id="428600881" Language="SFX">
+							<ShortName>GAM 507 Death sfx test - Track 1.wav</ShortName>
+							<Path>SFX\GAM 507 Death sfx test - Track 1_10C4C929.wem</Path>
+						</File>
+						<File Id="1063620329" Language="SFX">
+							<ShortName>GAM 507 Death sfx test - Track 4.wav</ShortName>
+							<Path>SFX\GAM 507 Death sfx test - Track 4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="27255824" Name="Player_Injured" ObjectPath="\Events\Default Work Unit\Player\Injured\Player_Injured" DurationType="OneShot" DurationMin="0.35415" DurationMax="0.5">
+					<IncludedMemoryFiles>
+						<File Id="704562518" Language="SFX">
+							<ShortName>Player Hurt Sfx 3.wav</ShortName>
+							<Path>SFX\Player Hurt Sfx 3_10C4C929.wem</Path>
+						</File>
+						<File Id="999679754" Language="SFX">
+							<ShortName>Player Hurt Sfx 2.wav</ShortName>
+							<Path>SFX\Player Hurt Sfx 2_10C4C929.wem</Path>
+						</File>
+						<File Id="999803230" Language="SFX">
+							<ShortName>Player Hurt Sfx 1.wav</ShortName>
+							<Path>SFX\Player Hurt Sfx 1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3634256599" Name="Player_LowHealth" ObjectPath="\Events\Default Work Unit\Player\Health\Player_LowHealth" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1072204522" Language="SFX">
+							<ShortName>heartbeat.wav</ShortName>
+							<Path>SFX\heartbeat_648337F8.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2696132222" Name="Player_NormalHealth" ObjectPath="\Events\Default Work Unit\Player\Health\Player_NormalHealth" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3982195600" Name="Shotgun_Fire" ObjectPath="\Events\Default Work Unit\Player\Combat\Shotgun\Shotgun_Fire" DurationType="OneShot" DurationMin="1.152169" DurationMax="1.662034">
+					<IncludedMemoryFiles>
+						<File Id="329205808" Language="SFX">
+							<ShortName>shotgun pump.wav</ShortName>
+							<Path>SFX\shotgun pump_10C4C929.wem</Path>
+						</File>
+						<File Id="403613418" Language="SFX">
+							<ShortName>shell drop 1.wav</ShortName>
+							<Path>SFX\shell drop 1_10C4C929.wem</Path>
+						</File>
+						<File Id="835371390" Language="SFX">
+							<ShortName>Shotgun blast.wav</ShortName>
+							<Path>SFX\Shotgun blast_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2182621371" Name="Small_Demon_Dead" ObjectPath="\Events\Default Work Unit\Small Demon\Dead\Small_Demon_Dead" DurationType="OneShot" DurationMin="1.142857" DurationMax="1.2">
+					<IncludedMemoryFiles>
+						<File Id="756955648" Language="SFX">
+							<ShortName>Imp 1 death.wav</ShortName>
+							<Path>SFX\Imp 1 death_10C4C929.wem</Path>
+						</File>
+						<File Id="770360250" Language="SFX">
+							<ShortName>Imp 2 death.wav</ShortName>
+							<Path>SFX\Imp 2 death_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="658204658" Name="Small_Demon_Fireball" ObjectPath="\Events\Default Work Unit\Small Demon\Combat\Small_Demon_Fireball" DurationType="OneShot" DurationMin="2.243401" DurationMax="2.243401">
+					<IncludedMemoryFiles>
+						<File Id="68704878" Language="SFX">
+							<ShortName>Demon Fireball - Throw.wav</ShortName>
+							<Path>SFX\Demon Fireball - Throw_BB6D0CCB.wem</Path>
+						</File>
+						<File Id="113532202" Language="SFX">
+							<ShortName>Demon Fireball - Impact.wav</ShortName>
+							<Path>SFX\Demon Fireball - Impact_C2F1445F.wem</Path>
+						</File>
+						<File Id="198117718" Language="SFX">
+							<ShortName>Demon Fireball - Start.wav</ShortName>
+							<Path>SFX\Demon Fireball - Start_BB8FBF07.wem</Path>
+						</File>
+						<File Id="922874722" Language="SFX">
+							<ShortName>Demon Fireball - Burn.wav</ShortName>
+							<Path>SFX\Demon Fireball - Burn_3A01D70B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1777701508" Name="Small_Demon_Injured" ObjectPath="\Events\Default Work Unit\Small Demon\Injured\Small_Demon_Injured" DurationType="OneShot" DurationMin="0.7" DurationMax="1.2">
+					<IncludedMemoryFiles>
+						<File Id="760008828" Language="SFX">
+							<ShortName>Imp 2 hurt.wav</ShortName>
+							<Path>SFX\Imp 2 hurt_10C4C929.wem</Path>
+						</File>
+						<File Id="1026548947" Language="SFX">
+							<ShortName>Imp 1 hurt.wav</ShortName>
+							<Path>SFX\Imp 1 hurt_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3767552163" Name="Small_Demon_Melee" ObjectPath="\Events\Default Work Unit\Small Demon\Combat\Small_Demon_Melee" DurationType="OneShot" DurationMin="2.09327" DurationMax="2.418465">
+					<IncludedMemoryFiles>
+						<File Id="224374040" Language="SFX">
+							<ShortName>Demon Melee Attack (claws).wav</ShortName>
+							<Path>SFX\Demon Melee Attack (claws)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2607442107" Name="Warden_Dead" ObjectPath="\Events\Default Work Unit\Warden\Dead\Warden_Dead" DurationType="OneShot" DurationMin="3.236604" DurationMax="3.236604">
+					<IncludedMemoryFiles>
+						<File Id="599307759" Language="SFX">
+							<ShortName>warden_death.wav</ShortName>
+							<Path>SFX\warden_death_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="145123698" Name="Warden_DrillHands" ObjectPath="\Events\Default Work Unit\Warden\Combat\Warden_DrillHands" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<IncludedMemoryFiles>
+						<File Id="392238674" Language="SFX">
+							<ShortName>warden_attack.wav</ShortName>
+							<Path>SFX\warden_attack_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3620622980" Name="Warden_Injured" ObjectPath="\Events\Default Work Unit\Warden\Injured\Warden_Injured" DurationType="OneShot" DurationMin="0.705354" DurationMax="0.705354">
+					<IncludedMemoryFiles>
+						<File Id="168757338" Language="SFX">
+							<ShortName>warden_damage.wav</ShortName>
+							<Path>SFX\warden_damage_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="3399698792" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main_Menu_Music</ObjectPath>
+			<ShortName>Main_Menu_Music</ShortName>
+			<Path>Main_Menu_Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2635200406" Name="Menu_End" ObjectPath="\Events\Default Work Unit\Music\Main Menu\Menu_End" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3908297853" Name="Menu_Start" ObjectPath="\Events\Default Work Unit\Music\Main Menu\Menu_Start" DurationType="OneShot" DurationMin="139.199997" DurationMax="139.199997">
+					<IncludedMemoryFiles>
+						<File Id="327556959" Language="SFX">
+							<ShortName>main_menu.wav</ShortName>
+							<Path>SFX\main_menu_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

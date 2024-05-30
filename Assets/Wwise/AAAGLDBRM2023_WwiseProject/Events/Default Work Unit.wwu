@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4C0AA67C-9D0E-4C17-B333-B8470CB23AB6}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{4C0AA67C-9D0E-4C17-B333-B8470CB23AB6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Test" ID="{26478F4F-244F-494B-B502-C96E326DF01E}" ShortID="167738228">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_Burn_Test" ID="{ED75990E-3C8C-42C4-930E-9E9155008992}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="13"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{F5F2DD43-5F41-486C-9EF3-FAF82618B8B0}" ShortID="1059129380">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Burn Test" ID="{6346C1EB-494A-418C-B47E-29873ED7AC9C}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Big Demon" ID="{A62CF9FF-54FF-464C-9187-9A713DEC1B58}" ShortID="591389148">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="12"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="Combat" ID="{EBC1B6D4-D036-42FE-B5B1-F8140857A256}" ShortID="771614047">
+							<ChildrenList>
+								<Event Name="Big_Demon_Melee" ID="{A41C52FD-B370-4D3E-88E3-BFF0D6104F1D}">
+									<ChildrenList>
+										<Action Name="" ID="{89F17DA8-78C6-4CDA-9EC7-D0DCB374EA5E}" ShortID="193545889">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ben - Big Demon - Melee" ID="{2AE669B7-0CEE-4B03-89A3-7C2545E1018F}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Injured" ID="{99FFE515-FA58-4A5E-A989-A5A5746C758E}" ShortID="630570188">
+							<ChildrenList>
+								<Event Name="Big_Demon_Injured" ID="{0781C11F-7241-4C64-B6E6-C7913F73F646}">
+									<ChildrenList>
+										<Action Name="" ID="{63C14C2A-2219-4C9C-A603-EF0FC22BF594}" ShortID="655325781">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Big Demon Injured" ID="{7B122E72-711C-4563-8C19-9B7DE3714AAF}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Dead" ID="{F96DB58F-89A1-46F7-A258-B63A9F8E3D6E}" ShortID="779890561">
+							<ChildrenList>
+								<Event Name="Big_Demon_Dead" ID="{C2343EAB-4CA8-4A96-BB66-EC9B13F3CC92}">
+									<ChildrenList>
+										<Action Name="" ID="{B028A744-B089-4F3D-A7E7-9AA8EB8D3EF1}" ShortID="641090100">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Big Demon Dead" ID="{A8EBF37C-CEAF-4ACB-8FF2-DB697BD90617}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Small Demon" ID="{2B9D5EE2-9868-46B1-B15F-A3CC00B8DDAC}" ShortID="237988110">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="Combat" ID="{75AD51A9-3BA4-48DD-984A-85AF4A820142}" ShortID="519912964">
+							<ChildrenList>
+								<Event Name="Small_Demon_Fireball" ID="{1B494E69-722E-4C8A-B0A5-7933613E5D36}">
+									<ChildrenList>
+										<Action Name="" ID="{2CCC62CA-07C6-4D07-ADB5-1B8CCE56F02E}" ShortID="808516168">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robert - Small Demon - Fireball - Start" ID="{6E62D150-2E68-4B76-B2A0-178F104C5289}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{889AEAC4-7C80-49AE-9001-2A56448FC4FC}" ShortID="91165573">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robert - Small Demon - Fireball - Throw" ID="{526B0B92-1586-4042-9C3C-7B1E6B7678F1}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{D9ACBDE5-EA6E-4789-8F6F-BE8C7A9EF30D}" ShortID="431908605">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="0.7"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robert - Small Demon - Fireball - Impact" ID="{4D8FAFB9-B447-4CF1-ABDF-92833A08FDC1}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{42A885B9-AA00-4C71-8996-41E0042A5F36}" ShortID="618904117">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="0.9"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robert - Small Demon - Fireball - Burn" ID="{DE628F39-0CAF-4FB8-ADAA-A446CA9C5BBE}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Small_Demon_Melee" ID="{D79E7FE6-46A2-4C28-9A14-83199137361C}">
+									<ChildrenList>
+										<Action Name="" ID="{25A3DE10-884E-4D8C-8290-1DF5F43B9D31}" ShortID="1011719591">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ben - Small Demon - Melee" ID="{FFE123FF-F519-4090-9A31-F6078513E673}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Injured" ID="{B1678FD8-352E-4B0D-9D72-A25648ECA807}" ShortID="445751279">
+							<ChildrenList>
+								<Event Name="Small_Demon_Injured" ID="{FDC21787-D9AA-4D37-81A0-6D8DA24693D0}">
+									<ChildrenList>
+										<Action Name="" ID="{E889FB03-856C-451F-84A5-89FEDA3DFF87}" ShortID="979030737">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Small Demon Injured" ID="{01802BA1-8162-4020-BD2F-49FAF9B8D55D}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Dead" ID="{9CBA1439-139F-43C9-BF28-8F6C7FFD9539}" ShortID="251330967">
+							<ChildrenList>
+								<Event Name="Small_Demon_Dead" ID="{B7B55A94-66DE-4950-9582-549F6F645AD9}">
+									<ChildrenList>
+										<Action Name="" ID="{21ADCC5A-2799-48E8-A2BA-8D3812E6DE5F}" ShortID="1050094457">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Small Demon Death" ID="{82463F68-9AB9-46BE-8A50-04429946591E}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player" ID="{D2B8ECB7-5FD1-4E5A-8E2B-28652F799C0F}" ShortID="429826512">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="Combat" ID="{06D27194-07E0-4BA7-BAA6-9E469EC61FD3}" ShortID="371163061">
+							<ChildrenList>
+								<Folder Name="Dagger" ID="{005437EF-FA75-4F34-BF92-9821FC985A98}" ShortID="374647487">
+									<ChildrenList>
+										<Event Name="Dagger_Slash" ID="{475ABE39-5CC1-4400-A440-D42A04F4FFB5}">
+											<ChildrenList>
+												<Action Name="" ID="{B579BC9E-B864-4D9C-8644-F5F44F963233}" ShortID="218614720">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Dagger Slash" ID="{1BF02A4F-5BD0-47DE-82C8-EE2126C06F9C}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Shotgun" ID="{5662FA8E-D54E-4686-8A8E-B4F72CDF2B15}" ShortID="532597258">
+									<ChildrenList>
+										<Event Name="Shotgun_Fire" ID="{1DEF0662-DCAA-43AD-A936-A39224CCC97A}">
+											<ChildrenList>
+												<Action Name="" ID="{E3099E1E-959A-46C0-89C0-6E85266B311F}" ShortID="1002360665">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Jack - Shotgun - Blast" ID="{AD225AEA-64F4-44DA-941F-56E1EC0F5F2A}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{74B61F88-68E3-412D-B882-0B380BB8550E}" ShortID="560394944">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Jack - Shotgun - Shells" ID="{FE271230-376A-463C-8152-8C8187C86FF7}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{1FB8FC56-F767-4BBB-8EAB-D0C9166EF6FE}" ShortID="724946085">
+													<PropertyList>
+														<Property Name="Delay" Type="Real64" Value="0.5"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Jack - Shotgun - Pump" ID="{FF3A0D10-6F16-41CF-9840-510A95370BC9}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Magic" ID="{39C880B7-1D32-481E-A4F1-7746B4727A6A}" ShortID="54504497">
+									<ChildrenList>
+										<Event Name="Magic_Projectile" ID="{60C4EA18-7A93-4B9E-950C-6F941A40174B}">
+											<ChildrenList>
+												<Action Name="" ID="{CA906B2B-26DB-4484-9E5F-B5F87FEA6F64}" ShortID="629412667">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Oli - Magic - Magic Projectile" ID="{8DE671DE-3806-48CF-9728-2B2EDFF1FD13}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Injured" ID="{1EA2AF61-B774-452C-B5E8-F078B162727A}" ShortID="541757806">
+							<ChildrenList>
+								<Event Name="Player_Injured" ID="{FCDB482A-22F5-4397-837D-A0813946BDFC}">
+									<ChildrenList>
+										<Action Name="" ID="{F327620C-6C46-47E4-A880-5736B2F7A484}" ShortID="194717836">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Player Injured" ID="{23BFD2A1-F85E-4A38-B6B9-C8C12D038952}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Health" ID="{F27BC8E8-DFC3-4F74-BC07-EB14BEBA5AA7}" ShortID="1029441139">
+							<ChildrenList>
+								<Event Name="Player_LowHealth" ID="{EDA7BDE0-E069-4906-8D49-73D54A7E52F0}">
+									<ChildrenList>
+										<Action Name="" ID="{ACBD5810-D4FC-44BE-87E1-98CAE8D35A8C}" ShortID="414131863">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Jack - Player - Heartbeat" ID="{8E59E47C-9104-4E18-A5D3-61CF2EC4E20C}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Player_NormalHealth" ID="{FB8F1663-76B3-454A-8C25-C79DA6D996CE}">
+									<ChildrenList>
+										<Action Name="" ID="{7176B47A-986A-4CAD-8DF9-F5E3F98817AD}" ShortID="480665899">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Jack - Player - Heartbeat" ID="{8E59E47C-9104-4E18-A5D3-61CF2EC4E20C}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Dead" ID="{9E8AB8F9-BA53-4452-BC30-3AB449D9F1D4}" ShortID="5843849">
+							<ChildrenList>
+								<Event Name="Play_GameOver_Cue" ID="{01A0385F-0B9E-48FC-8F3D-C4FB4AA9EDDB}">
+									<ChildrenList>
+										<Action Name="" ID="{F752B084-F303-43D1-B3E4-0487956A6F3A}" ShortID="588786064">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Game Over" ID="{D1545708-109F-4934-9270-004A42140685}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{E2D5C042-138F-48DC-AD0B-F8E5A0839C1B}" ShortID="671634120">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Button_Click" ID="{C048F53D-5C94-4379-B52B-007169855355}">
+							<ChildrenList>
+								<Action Name="" ID="{F1359B61-A0E5-4576-890F-9E0D8730B260}" ShortID="537307304">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pawel - UI - Button Click" ID="{2EA4E313-5442-4F51-B633-EC95E48CE677}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Warden" ID="{A938DC52-D1F9-4AF1-B563-853BCE9C3648}" ShortID="455153634">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="Combat" ID="{780C9936-1BF7-4B6C-9E59-B72FF6F3BC53}" ShortID="624786361">
+							<ChildrenList>
+								<Event Name="Warden_DrillHands" ID="{D23FB3D6-6F81-4470-AC23-131156D5A9F1}">
+									<ChildrenList>
+										<Action Name="" ID="{722CAD15-6F0F-4E53-8156-E49C64913D63}" ShortID="515964131">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Jack - Warden - Combat" ID="{05389CA6-A99A-449B-B0C0-F964D9A02E3D}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Injured" ID="{A2EA759C-17B0-41C2-A26F-227FACF172EB}" ShortID="487296495">
+							<ChildrenList>
+								<Event Name="Warden_Injured" ID="{C73646C6-1541-4949-8C0B-F5024C0B79AD}">
+									<ChildrenList>
+										<Action Name="" ID="{69F4589F-70CD-4615-A4C3-D779A094CA7E}" ShortID="75793166">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Jack - Warden - Hurt" ID="{66EC8B8C-40AC-4B98-9066-4D39BCE10A37}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Dead" ID="{2F1FCD8D-021C-4C85-90EE-AF531FB2571E}" ShortID="812007015">
+							<ChildrenList>
+								<Event Name="Warden_Dead" ID="{D51087AD-4E48-4BEC-9BBA-7A3F884EADD7}">
+									<ChildrenList>
+										<Action Name="" ID="{E14E3BF5-8406-4D53-BD53-F8133F853522}" ShortID="936795701">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Jack - Warden - Death" ID="{245EA113-6381-4170-B8E2-DE7FEA734E6B}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<WorkUnit Name="Music" ID="{142B329D-BCD9-4C03-8F63-9A5A2A78B81D}" PersistMode="Reference"/>
+				<Event Name="Play_Torches" ID="{DE2CE746-5371-4F3A-9E68-CB9BB8619E32}">
+					<ChildrenList>
+						<Action Name="" ID="{E17F60A5-F338-4EA8-9340-BC45A215ECD4}" ShortID="944064682">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Robert - Castle - Torches" ID="{72C963F2-FFAA-40E0-9973-F60A1D23548B}" WorkUnitID="{7040E78D-7138-4FA6-BF98-9247A6FFDF2F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

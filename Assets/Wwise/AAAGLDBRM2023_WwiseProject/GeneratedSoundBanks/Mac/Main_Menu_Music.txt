@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2635200406	Menu_End			\Default Work Unit\Music\Main Menu\Menu_End	
+	3908297853	Menu_Start			\Default Work Unit\Music\Main Menu\Menu_Start	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	327556959	main_menu	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\AAAGLDBRM2023_WwiseProject\.cache\Mac\SFX\main_menu_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Jack - Music - Main Menu\main_menu		26726528
+

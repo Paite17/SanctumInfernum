@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2393980604	Play_Burn_Test			\Default Work Unit\Test\Play_Burn_Test	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	36699401	Burn Test	C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\AAAGLDBRM2023_WwiseProject\.cache\Windows\SFX\GAM 507 - Demon Fireball - Burn _AD661F34.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\Burn Test		275152
+

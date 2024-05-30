@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\AAAGLDBRM2023_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\AAAGLDBRM2023_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\Assets\Wwise\Soundbanks\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\rober\Documents\GitHub\AAAGLDBRM2023\AAAGLDBRM2023_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="3483915506">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2393980604" Name="Play_Burn_Test" ObjectPath="\Events\Default Work Unit\Test\Play_Burn_Test" DurationType="OneShot" DurationMin="1.559095" DurationMax="1.559095">
+					<IncludedMemoryFiles>
+						<File Id="36699401" Language="SFX">
+							<ShortName>GAM 507 - Demon Fireball - Burn .wav</ShortName>
+							<Path>SFX\GAM 507 - Demon Fireball - Burn _AD661F34.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="3012300438">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

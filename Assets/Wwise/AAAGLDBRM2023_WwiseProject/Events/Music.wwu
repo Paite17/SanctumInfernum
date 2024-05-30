@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{142B329D-BCD9-4C03-8F63-9A5A2A78B81D}" SchemaVersion="103" RootDocumentID="{4C0AA67C-9D0E-4C17-B333-B8470CB23AB6}" ParentDocumentID="{4C0AA67C-9D0E-4C17-B333-B8470CB23AB6}">
+	<Events>
+		<WorkUnit Name="Music" ID="{142B329D-BCD9-4C03-8F63-9A5A2A78B81D}" OwnerID="{4C0AA67C-9D0E-4C17-B333-B8470CB23AB6}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="3"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Slums" ID="{A83BFBD2-9073-46B9-A40E-025BE3CF8F9A}" ShortID="337832159">
+					<ChildrenList>
+						<Event Name="Slums_Theme" ID="{C6BFB037-8088-4F02-BE87-6107AF997A38}">
+							<ChildrenList>
+								<Action Name="" ID="{E445B723-55E4-40DC-89EA-CC16049B2E2C}" ShortID="554640620">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pawel - Music - Slums" ID="{7FC651A9-B046-44C9-BFDF-E8CE1DFBB861}" WorkUnitID="{8CD424FD-31C9-4C9D-931D-A3FBEA9BB966}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Slums_End" ID="{019CC624-24B3-4D01-9BFB-2BA3140F0788}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Castle" ID="{45CF2945-0DDC-4AE9-A731-C6E0F0BD05AC}" ShortID="323750980">
+					<ChildrenList>
+						<Event Name="Castle_Themes" ID="{E17DC04B-3326-412E-95D9-E40B9C688CD5}">
+							<ChildrenList>
+								<Action Name="" ID="{6572197C-5D8A-4299-AC33-E8F21AA3BF4C}" ShortID="195214188">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiance" ID="{B33A93D6-3618-4BAF-83E7-C7290C205D99}" WorkUnitID="{8CD424FD-31C9-4C9D-931D-A3FBEA9BB966}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Dialogue" ID="{657A8649-8C18-4BB7-96CE-318CB2DB61D0}" ShortID="114101068">
+					<ChildrenList>
+						<Event Name="Dialogue_Start" ID="{71C56641-8414-4164-B061-5274DB64D18C}"/>
+						<Event Name="Dialogue_End" ID="{BE6A0410-5152-45E8-BFC4-042B4F278F6E}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Combat" ID="{3F53CE77-ABC5-49F3-A50C-118BB4FC6D4C}" ShortID="247870272">
+					<ChildrenList>
+						<Event Name="Player_Seen" ID="{299F4FDE-E50B-4782-8937-1BFF70012491}">
+							<ChildrenList>
+								<Action Name="" ID="{31EE1C16-D918-4507-A3D7-55DA1BC6C2D3}" ShortID="163684353">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Combat" ID="{A089D0D5-6D7B-4264-BDBC-E94DBAB994CB}" WorkUnitID="{8CD424FD-31C9-4C9D-931D-A3FBEA9BB966}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemies_Defeated" ID="{D4F748F5-A303-4AAF-977B-E3D8F438682D}">
+							<ChildrenList>
+								<Action Name="" ID="{037217DA-F463-48F5-BEED-2EDBACA61469}" ShortID="233575435">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Combat" ID="{A089D0D5-6D7B-4264-BDBC-E94DBAB994CB}" WorkUnitID="{8CD424FD-31C9-4C9D-931D-A3FBEA9BB966}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{15623B1F-319C-4153-8BC4-586FE7B6DF1B}" ShortID="836393851">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiance" ID="{B33A93D6-3618-4BAF-83E7-C7290C205D99}" WorkUnitID="{8CD424FD-31C9-4C9D-931D-A3FBEA9BB966}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Main Menu" ID="{69EB04B2-9324-40F4-803D-40BDB2457ABC}" ShortID="518321312">
+					<ChildrenList>
+						<Event Name="Menu_Start" ID="{415D7ED6-7570-43A8-86CD-8A87DA5B3296}">
+							<ChildrenList>
+								<Action Name="" ID="{71A6356C-EC81-4848-A5B9-C762AC55D6C7}" ShortID="915106955">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jack - Music - Main Menu" ID="{22E6BCDA-257F-4968-A90C-E5B82C2FBD09}" WorkUnitID="{8CD424FD-31C9-4C9D-931D-A3FBEA9BB966}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Menu_End" ID="{D3D838BC-3C40-445C-8C8C-036F1CAD5CE9}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Dungeon" ID="{A079FA24-3F7E-4188-8067-9FAF3C4CFC5C}" ShortID="853306036">
+					<ChildrenList>
+						<Event Name="Dungeon_Music" ID="{9A4A75C5-EFBE-437F-888F-A18C228EDD32}">
+							<ChildrenList>
+								<Action Name="" ID="{6074C73E-97C6-4D9E-914A-8A005B912661}" ShortID="293417068">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Oli - Music - Dungeon" ID="{23A63BF2-9B76-496C-9990-DC81986EB1E9}" WorkUnitID="{8CD424FD-31C9-4C9D-931D-A3FBEA9BB966}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
