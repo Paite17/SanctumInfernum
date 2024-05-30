@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &420727654197216342
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2573233108142600721, guid: 048d692159139c047a870f664cf38965,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2573233108142600721, guid: 048d692159139c047a870f664cf38965,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 296.9965
+      objectReference: {fileID: 0}
+    - target: {fileID: 2573233108142600721, guid: 048d692159139c047a870f664cf38965,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 296.9965
+      objectReference: {fileID: 0}
+    - target: {fileID: 2573233108142600721, guid: 048d692159139c047a870f664cf38965,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 333.20035
+      objectReference: {fileID: 0}
+    - target: {fileID: 2573233108142600721, guid: 048d692159139c047a870f664cf38965,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 348.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2573233108142600721, guid: 048d692159139c047a870f664cf38965,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.2590294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2573233108142600721, guid: 048d692159139c047a870f664cf38965,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -59.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 2573233108142600721, guid: 048d692159139c047a870f664cf38965,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2573233108142600721, guid: 048d692159139c047a870f664cf38965,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2573233108142600721, guid: 048d692159139c047a870f664cf38965,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2573233108142600721, guid: 048d692159139c047a870f664cf38965,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2573233108142600721, guid: 048d692159139c047a870f664cf38965,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2573233108142600721, guid: 048d692159139c047a870f664cf38965,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2573233108142600721, guid: 048d692159139c047a870f664cf38965,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953839415252576427, guid: 048d692159139c047a870f664cf38965,
+        type: 3}
+      propertyPath: m_Name
+      value: 'Giant Open Door '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 048d692159139c047a870f664cf38965, type: 3}
+--- !u!1 &3254023211464436989 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2953839415252576427, guid: 048d692159139c047a870f664cf38965,
+    type: 3}
+  m_PrefabInstance: {fileID: 420727654197216342}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &847360710
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3254023211464436989}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
