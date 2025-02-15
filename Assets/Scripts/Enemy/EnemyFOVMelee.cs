@@ -3,7 +3,6 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.UIElements;
 
 
 // making this for the boss, which wont have patrol points
@@ -101,7 +100,11 @@ public class EnemyFOVMelee : MonoBehaviour
                     currentPP = (currentPP + 1) % patrolPoints.Length;
                 }
 
-                enemyAgent.SetDestination(patrolPoints[currentPP].position);
+                if (enemyAgent.isActiveAndEnabled)
+                {
+                    enemyAgent.SetDestination(patrolPoints[currentPP].position);
+                }
+                
 
                 anim.SetBool("IsWalking", true);
 

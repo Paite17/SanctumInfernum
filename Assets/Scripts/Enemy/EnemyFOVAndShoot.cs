@@ -100,7 +100,11 @@ public class EnemyFOVAndShoot : MonoBehaviour
                 currentPP = (currentPP + 1) % patrolPoints.Length;
             }
 
-            enemyAgent.SetDestination(patrolPoints[currentPP].position);
+            if (enemyAgent.enabled)
+            {
+                enemyAgent.SetDestination(patrolPoints[currentPP].position);
+            }
+            
 
             anim.SetBool("IsWalking", true);
 
@@ -193,7 +197,7 @@ public class EnemyFOVAndShoot : MonoBehaviour
 
             if (chasePlayer != false)
             {
-                //enemyAgent.SetDestination(playerPos.position);
+                enemyAgent.SetDestination(playerPos.position);
                 anim.SetBool("IsRunning", true);
             }
 

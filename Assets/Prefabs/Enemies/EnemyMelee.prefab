@@ -682,6 +682,7 @@ GameObject:
   - component: {fileID: 1657464165462839492}
   - component: {fileID: 1657464165462839487}
   - component: {fileID: 6386465171277540144}
+  - component: {fileID: -1972450357604988015}
   m_Layer: 9
   m_Name: EnemyMelee
   m_TagString: Enemy
@@ -797,6 +798,19 @@ MonoBehaviour:
   anim: {fileID: 4469174616765871707}
   deathClips: []
   enemySpawner: {fileID: 0}
+--- !u!114 &-1972450357604988015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657464165462839486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adfe4b2b84e8d1e42a073df0510858e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxDistanceBeforeCulling: 50
 --- !u!1 &1686787501785303219
 GameObject:
   m_ObjectHideFlags: 0

@@ -74,6 +74,7 @@ GameObject:
   - component: {fileID: 7380983323253838023}
   - component: {fileID: 7380983323253838012}
   - component: {fileID: 3012824472024279859}
+  - component: {fileID: 1617464477223756701}
   m_Layer: 9
   m_Name: SlumsBoss
   m_TagString: Enemy
@@ -188,11 +189,19 @@ MonoBehaviour:
   anim: {fileID: 2143643100461998051}
   deathClips: []
   enemySpawner: {fileID: 0}
-  audioSource: {fileID: 0}
-  hurt1: {fileID: 8300000, guid: 7ec36d8cb892a1548865c895f20d7057, type: 3}
-  hurt2: {fileID: 8300000, guid: 7ec36d8cb892a1548865c895f20d7057, type: 3}
-  death1: {fileID: 8300000, guid: 90e08919c5b7ca744b9422d958e807ac, type: 3}
-  death2: {fileID: 8300000, guid: 90e08919c5b7ca744b9422d958e807ac, type: 3}
+--- !u!114 &1617464477223756701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7380983323253838013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adfe4b2b84e8d1e42a073df0510858e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxDistanceBeforeCulling: 150
 --- !u!1001 &8368649572178500146
 PrefabInstance:
   m_ObjectHideFlags: 0

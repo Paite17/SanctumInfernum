@@ -1456,6 +1456,7 @@ GameObject:
   - component: {fileID: 5051408569522269586}
   - component: {fileID: 5051408569522269597}
   - component: {fileID: 5051408569522269587}
+  - component: {fileID: -774086070023452813}
   m_Layer: 9
   m_Name: EnemyRanged
   m_TagString: Enemy
@@ -1495,11 +1496,6 @@ MonoBehaviour:
   anim: {fileID: 9135943534833367152}
   enemyRangedHealth: 100
   enemySpawner: {fileID: 0}
-  audioSource: {fileID: 0}
-  hurt1: {fileID: 8300000, guid: fecbf9ce3a830e043b3da6e9ffac7fe3, type: 3}
-  hurt2: {fileID: 8300000, guid: cd0c9a0a83bd13242bc01142fe3900cb, type: 3}
-  death1: {fileID: 8300000, guid: b175f63f7ccda5f40923fd8f451c450f, type: 3}
-  death2: {fileID: 8300000, guid: ba382257703814a4d9657e70c98d655e, type: 3}
 --- !u!114 &5051408569522269586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1577,6 +1573,19 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 5
   m_ObstacleAvoidanceType: 4
+--- !u!114 &-774086070023452813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5051408569522269598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adfe4b2b84e8d1e42a073df0510858e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxDistanceBeforeCulling: 50
 --- !u!1 &5577565742024713783
 GameObject:
   m_ObjectHideFlags: 0
