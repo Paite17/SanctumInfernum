@@ -143,8 +143,10 @@ public class UIHealthBar : MonoBehaviour
         yield return new WaitForSeconds(2.5f);
 
         gameOverButtons.SetActive(true);
-        
-        
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+
     }
 
 }
