@@ -49,22 +49,25 @@ public class UIScript : MonoBehaviour
             bossHealthBar.fillAmount = bossHealthPercentage;
         }
         
+        if (SceneManager.GetActiveScene().name != "FDWT_Level")
+        {
+            // colour change
+            if (bossHealthPercentage <= 0.5f && bossHealthPercentage > 0.25f)
+            {
+                bossHealthBar.color = new Color32(255, 90, 0, 255);
+                bossHealthBarBackground.color = new Color32(128, 64, 34, 255);
+            }
+            if (bossHealthPercentage <= 0.25f)
+            {
+                bossHealthBar.color = Color.red;
+                bossHealthBarBackground.color = new Color32(128, 38, 34, 255);
+            }
 
-        // colour change
-        if (bossHealthPercentage <= 0.5f && bossHealthPercentage > 0.25f)
-        {
-            bossHealthBar.color = new Color32(255, 90, 0, 255);
-            bossHealthBarBackground.color = new Color32(128, 64, 34, 255);
-        }
-        if (bossHealthPercentage <= 0.25f)
-        {
-            bossHealthBar.color = Color.red;
-            bossHealthBarBackground.color = new Color32(128, 38, 34, 255);
-        }
+            if (bossHealth.enemyAgentHealth <= 0)
+            {
+                bossUI.SetActive(false);
+            }
 
-        if (bossHealth.enemyAgentHealth <= 0)
-        {
-            bossUI.SetActive(false);
         }
 
         if (playerHealth.health <= 50)
